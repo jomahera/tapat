@@ -24,7 +24,7 @@ namespace Tapat
             EditText user = FindViewById<EditText>(Resource.Id.user_id);
             EditText pass = FindViewById<EditText>(Resource.Id.password);
 
-            //Login functionality; to be coded
+            //Login functionality; to be coded later
             login.Click += delegate
             {
                 if (user.Text != null)
