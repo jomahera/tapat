@@ -87,6 +87,9 @@ namespace Tapat
 			// aapt resource value: 0x7f050005
 			public const int fptext_tag = 2131034117;
 			
+			// aapt resource value: 0x7f050012
+			public const int imageView1 = 2131034130;
+			
 			// aapt resource value: 0x7f050006
 			public const int img_fp = 2131034118;
 			
@@ -143,16 +146,22 @@ namespace Tapat
 		{
 			
 			// aapt resource value: 0x7f030000
-			public const int Fingerprint_BEI = 2130903040;
+			public const int Capture_Ballot = 2130903040;
 			
 			// aapt resource value: 0x7f030001
-			public const int Fingerprint_Voter = 2130903041;
+			public const int Fingerprint_BEI = 2130903041;
 			
 			// aapt resource value: 0x7f030002
-			public const int Login = 2130903042;
+			public const int Fingerprint_Voter = 2130903042;
 			
 			// aapt resource value: 0x7f030003
-			public const int MainMenu = 2130903043;
+			public const int Login = 2130903043;
+			
+			// aapt resource value: 0x7f030004
+			public const int MainMenu = 2130903044;
+			
+			// aapt resource value: 0x7f030005
+			public const int Voter_Profile = 2130903045;
 			
 			static Layout()
 			{

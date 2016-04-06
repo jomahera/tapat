@@ -27,43 +27,32 @@
         android:minHeight="25px"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/relativeLayout1">
+        android:id="@+id/relativeLayout1"
+        android:layout_marginLeft="0.0dp">
         <TextView
             android:id="@+id/fptext_eng"
             android:textSize="50dp"
-            android:text="Kindly place your finger on the fingerprint scanner."
-            android:layout_width="match_parent"
+            android:text="Kindly insert the ballot inside the jig"
+            android:textAlignment="center"
+            android:layout_width="587.0dp"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="70dp"
+            android:layout_marginLeft="100dp"
             android:layout_marginRight="50dp"
             android:layout_marginTop="100dp"
             android:layout_gravity="center_horizontal"
-            android:textAlignment="center"
             android:gravity="center" />
         <TextView
             android:id="@+id/fptext_tag"
             android:textSize="40dp"
-            android:text="(Pakilagay ang daliri sa fingerprint scanner.)"
+            android:text="(Ipasok ang balota sa loob ng jig)"
             android:textAlignment="center"
             android:textStyle="italic"
-            android:layout_width="match_parent"
+            android:layout_width="561.0dp"
             android:layout_height="wrap_content"
             android:layout_marginRight="50dp"
-            android:layout_marginLeft="70dp"
+            android:layout_marginLeft="100dp"
             android:layout_marginTop="5dp"
             android:layout_below="@+id/fptext_eng"
             android:gravity="center" />
-        <ImageButton
-            android:src="@drawable/fingerprint"
-            android:id="@+id/img_fp"
-            android:scaleType="fitCenter"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="0"
-            android:layout_marginTop="50dp"
-            android:layout_marginBottom="80dp"
-            android:layout_gravity="center"
-            android:layout_below="@+id/fptext_tag"
-            android:layout_centerHorizontal="true" />
     </RelativeLayout>
 </LinearLayout>
