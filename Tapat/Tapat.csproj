@@ -108,9 +108,6 @@
     <AndroidResource Include="Resources\layout\PleaseWait.axml">
       <SubType>AndroidResource</SubType>
     </AndroidResource>
-    <AndroidResource Include="Resources\layout\User_Votes.axml">
-      <SubType>AndroidResource</SubType>
-    </AndroidResource>
     <AndroidResource Include="Resources\layout\Vote_Result.axml">
       <SubType>AndroidResource</SubType>
     </AndroidResource>

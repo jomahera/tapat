@@ -90,8 +90,8 @@ namespace Tapat
 			// aapt resource value: 0x7f050025
 			public const int CStatus = 2131034149;
 			
-			// aapt resource value: 0x7f050009
-			public const int CapturingBallot = 2131034121;
+			// aapt resource value: 0x7f05000b
+			public const int CapturingBallot = 2131034123;
 			
 			// aapt resource value: 0x7f05002d
 			public const int City = 2131034157;
@@ -105,11 +105,11 @@ namespace Tapat
 			// aapt resource value: 0x7f050022
 			public const int MName = 2131034146;
 			
-			// aapt resource value: 0x7f050018
-			public const int Maghintay = 2131034136;
+			// aapt resource value: 0x7f05001a
+			public const int Maghintay = 2131034138;
 			
-			// aapt resource value: 0x7f050017
-			public const int PleaseWait = 2131034135;
+			// aapt resource value: 0x7f050019
+			public const int PleaseWait = 2131034137;
 			
 			// aapt resource value: 0x7f050030
 			public const int ProceedButton = 2131034160;
@@ -141,32 +141,32 @@ namespace Tapat
 			// aapt resource value: 0x7f05002f
 			public const int VotingCenter = 2131034159;
 			
-			// aapt resource value: 0x7f05001b
-			public const int back_voter = 2131034139;
+			// aapt resource value: 0x7f05001d
+			public const int back_voter = 2131034141;
 			
 			// aapt resource value: 0x7f050008
 			public const int button1 = 2131034120;
 			
-			// aapt resource value: 0x7f050011
-			public const int choose = 2131034129;
-			
 			// aapt resource value: 0x7f050013
-			public const int close_poll = 2131034131;
+			public const int choose = 2131034131;
 			
-			// aapt resource value: 0x7f05001d
-			public const int confirm_votes = 2131034141;
+			// aapt resource value: 0x7f050015
+			public const int close_poll = 2131034133;
+			
+			// aapt resource value: 0x7f05001e
+			public const int confirm_votes = 2131034142;
 			
 			// aapt resource value: 0x7f050004
 			public const int fptext_eng = 2131034116;
 			
-			// aapt resource value: 0x7f05000a
-			public const int fptext_tag = 2131034122;
+			// aapt resource value: 0x7f05000c
+			public const int fptext_tag = 2131034124;
 			
-			// aapt resource value: 0x7f05001e
-			public const int imageView1 = 2131034142;
+			// aapt resource value: 0x7f050009
+			public const int imageView1 = 2131034121;
 			
-			// aapt resource value: 0x7f05000b
-			public const int img_fp = 2131034123;
+			// aapt resource value: 0x7f05000d
+			public const int img_fp = 2131034125;
 			
 			// aapt resource value: 0x7f050001
 			public const int img_rop_coa = 2131034113;
@@ -174,35 +174,35 @@ namespace Tapat
 			// aapt resource value: 0x7f050002
 			public const int img_tapat = 2131034114;
 			
-			// aapt resource value: 0x7f050010
-			public const int login_button = 2131034128;
+			// aapt resource value: 0x7f050012
+			public const int login_button = 2131034130;
+			
+			// aapt resource value: 0x7f050018
+			public const int logout = 2131034136;
 			
 			// aapt resource value: 0x7f050016
-			public const int logout = 2131034134;
+			public const int man_count = 2131034134;
 			
 			// aapt resource value: 0x7f050014
-			public const int man_count = 2131034132;
+			public const int open_poll = 2131034132;
 			
-			// aapt resource value: 0x7f050012
-			public const int open_poll = 2131034130;
-			
-			// aapt resource value: 0x7f05000f
-			public const int password = 2131034127;
-			
-			// aapt resource value: 0x7f05001c
-			public const int proceed_print = 2131034140;
+			// aapt resource value: 0x7f050011
+			public const int password = 2131034129;
 			
 			// aapt resource value: 0x7f050003
 			public const int relativeLayout1 = 2131034115;
 			
+			// aapt resource value: 0x7f05000a
+			public const int relativeLayout2 = 2131034122;
+			
 			// aapt resource value: 0x7f050000
 			public const int relative_main = 2131034112;
 			
-			// aapt resource value: 0x7f05001a
-			public const int salamat = 2131034138;
+			// aapt resource value: 0x7f05001c
+			public const int salamat = 2131034140;
 			
-			// aapt resource value: 0x7f050015
-			public const int tally = 2131034133;
+			// aapt resource value: 0x7f050017
+			public const int tally = 2131034135;
 			
 			// aapt resource value: 0x7f050006
 			public const int textView1 = 2131034118;
@@ -213,17 +213,17 @@ namespace Tapat
 			// aapt resource value: 0x7f050005
 			public const int textView3 = 2131034117;
 			
+			// aapt resource value: 0x7f050010
+			public const int text_pass = 2131034128;
+			
 			// aapt resource value: 0x7f05000e
-			public const int text_pass = 2131034126;
+			public const int text_user = 2131034126;
 			
-			// aapt resource value: 0x7f05000c
-			public const int text_user = 2131034124;
+			// aapt resource value: 0x7f05001b
+			public const int thanks = 2131034139;
 			
-			// aapt resource value: 0x7f050019
-			public const int thanks = 2131034137;
-			
-			// aapt resource value: 0x7f05000d
-			public const int user_id = 2131034125;
+			// aapt resource value: 0x7f05000f
+			public const int user_id = 2131034127;
 			
 			static Id()
 			{
@@ -242,19 +242,34 @@ namespace Tapat
 			public const int Capture_Ballot = 2130903040;
 			
 			// aapt resource value: 0x7f030001
-			public const int Fingerprint_BEI = 2130903041;
+			public const int Captured_Result = 2130903041;
 			
 			// aapt resource value: 0x7f030002
-			public const int Fingerprint_BEI = 2130903042;
+			public const int CapturingBallot = 2130903042;
 			
 			// aapt resource value: 0x7f030003
-			public const int Fingerprint_Voter = 2130903043;
+			public const int Fingerprint_BEI = 2130903043;
 			
 			// aapt resource value: 0x7f030004
-			public const int Login = 2130903044;
+			public const int Fingerprint_Voter = 2130903044;
 			
 			// aapt resource value: 0x7f030005
-			public const int Voter_Profile = 2130903045;
+			public const int Login = 2130903045;
+			
+			// aapt resource value: 0x7f030006
+			public const int MainMenu = 2130903046;
+			
+			// aapt resource value: 0x7f030007
+			public const int PleaseWait = 2130903047;
+			
+			// aapt resource value: 0x7f030008
+			public const int ThanksForVoting = 2130903048;
+			
+			// aapt resource value: 0x7f030009
+			public const int Vote_Result = 2130903049;
+			
+			// aapt resource value: 0x7f03000a
+			public const int Voter_Profile = 2130903050;
 			
 			static Layout()
 			{
