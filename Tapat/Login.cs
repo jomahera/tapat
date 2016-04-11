@@ -5,14 +5,15 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
+using Microsoft.WindowsAzure.MobileServices;
 
 namespace Tapat
 {
     [Activity(Label = "Tapat", MainLauncher = true, Icon = "@drawable/icon")]
     public class Login : Activity
     {
-     
 
+        public static MobileServiceClient MobileService = new MobileServiceClient("https://tapat2.azurewebsites.net");
         protected override void OnCreate(Bundle bundle)
         {
             base.OnCreate(bundle);
@@ -25,14 +26,26 @@ namespace Tapat
             EditText pass = FindViewById<EditText>(Resource.Id.password);
 
             //Login functionality; to be coded later after SQL server has been connected
-            login.Click += delegate
+            login.Click += async delegate
             {
+                //Test code
+                CurrentPlatform.Init();
+                TodoItem item = new TodoItem { Text = "Test Run" };
+                await MobileService.GetTable<TodoItem>().InsertAsync(item);
+
                 if (user.Text != null)
                 {
                     StartActivity(typeof(Tapat.Fingerprint_BEI));
                 }
             };
         }
+
+        public class TodoItem
+        {
+            public string Id { get; set; }
+            public string Text { get; set; }
+        }
+
     }
 }
 
