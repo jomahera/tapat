@@ -72,6 +72,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Activity1.cs" />
     <Compile Include="Fingerprint_BEI.cs" />
     <Compile Include="Fingerprint_Voter.cs" />
     <Compile Include="Login.cs" />
@@ -85,6 +86,9 @@
     <AndroidResource Include="Resources\layout\Fingerprint_BEI.axml">
       <SubType>AndroidResource</SubType>
     </AndroidResource>
+    <None Include="layout1.axml">
+      <SubType>AndroidResource</SubType>
+    </None>
     <None Include="packages.config" />
     <None Include="Resources\AboutResources.txt" />
     <None Include="Assets\AboutAssets.txt" />

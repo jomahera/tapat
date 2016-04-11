@@ -77,5 +77,6 @@
         android:layout_marginTop="100dp"
         android:textSize="40dp"
         android:gravity="center"
-        android:layout_gravity="center" />
+        android:layout_gravity="center"
+        android:onClick="capture" />
 </LinearLayout>
