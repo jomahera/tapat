@@ -1,24 +1,182 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
     android:minWidth="25px"
     android:minHeight="25px">
     <RelativeLayout
         android:minWidth="25px"
         android:minHeight="25px"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/relativeLayout1">
-        <ImageView
-            android:src="@android:drawable/ic_menu_gallery"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/imageView1"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="30dp"
-            android:minHeight="250dp"
-            android:minWidth="250dp" />
-    </RelativeLayout>
+        android:layout_height="wrap_content"
+        android:id="@+id/relativeLayout1" />
+    <ImageView
+        android:src="@android:drawable/ic_menu_gallery"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/imageView1"
+        android:layout_gravity="center_horizontal" />
+    <TextView
+        android:text="Voter Information"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/VoterInformation"
+        android:layout_marginLeft="20dp"
+        android:textSize="40dp"
+        android:layout_marginTop="10dp" />
+    <TextView
+        android:text="First Name:"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:id="@+id/FName"
+        android:textSize="25dp"
+        android:layout_marginTop="5dp" />
+    <TextView
+        android:text="Last Name:"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:textSize="25dp"
+        android:id="@+id/LName"
+        android:layout_marginTop="5dp" />
+    <TextView
+        android:text="Middle Name:"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:id="@+id/MName"
+        android:textSize="25dp"
+        android:layout_marginTop="5dp" />
+    <TextView
+        android:text="Birthdate:"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:textSize="25dp"
+        android:id="@+id/Birthdate"
+        android:layout_marginTop="5dp" />
+    <TextView
+        android:text="Sex:"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:layout_marginLeft="40dp"
+        android:id="@+id/Sex"
+        android:layout_marginTop="5dp" />
+    <TextView
+        android:text="Civil Status:"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:textSize="25dp"
+        android:id="@+id/CStatus"
+        android:layout_marginTop="5dp" />
+    <TextView
+        android:text="Registration Details"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/RegistrationDetails"
+        android:layout_marginLeft="20dp"
+        android:textSize="40dp"
+        android:layout_marginTop="30dp" />
+    <TextView
+        android:text="Registration Date:"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:textSize="25dp"
+        android:id="@+id/RegDate"
+        android:layout_marginTop="5dp" />
+    <TextView
+        android:text="Registration Status:"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:textSize="25dp"
+        android:id="@+id/RegStatus"
+        android:layout_marginTop="5dp" />
+    <TextView
+        android:text="Biometrics Data:"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:textSize="25dp"
+        android:id="@+id/BiometricsData"
+        android:layout_marginTop="5dp" />
+    <TextView
+        android:text="Voter's Registration Record:"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:textSize="25dp"
+        android:id="@+id/VRegRecord"
+        android:layout_marginTop="5dp" />
+    <TextView
+        android:text="Voter's Identification Number:"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:textSize="25dp"
+        android:id="@+id/VRegNo"
+        android:layout_marginTop="5dp" />
+    <TextView
+        android:text="Province:"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:textSize="25dp"
+        android:id="@+id/Province"
+        android:layout_marginTop="5dp" />
+    <TextView
+        android:text="City/Municipality:"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:textSize="25dp"
+        android:id="@+id/City"
+        android:layout_marginTop="5dp" />
+    <TextView
+        android:text="Barangay:"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:id="@+id/Brgy"
+        android:textSize="25dp"
+        android:layout_marginTop="5dp" />
+    <TextView
+        android:text="Voting Center:"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:textSize="25dp"
+        android:id="@+id/VotingCenter"
+        android:layout_marginTop="5dp" />
+    <Button
+        android:text="Proceed"
+        android:layout_width="400dp"
+        android:layout_height="100dp"
+        android:id="@+id/ProceedButton"
+        android:layout_gravity="right"
+        android:textSize="30dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="40dp" />
 </LinearLayout>

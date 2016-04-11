@@ -22,9 +22,10 @@ namespace Tapat
             // Create your application here
             SetContentView(Resource.Layout.MainMenu);
 
-            Button open = FindViewById<Button>(Resource.Id.open_poll);
+            Button openpoll = FindViewById<Button>(Resource.Id.open_poll);
 
-            open.Click += delegate {
+
+            openpoll.Click += delegate {
                 StartActivity(typeof(Tapat.Fingerprint_Voter));
             };
         }
