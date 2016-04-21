@@ -10,23 +10,26 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 
+
 namespace Tapat
 {
-    [Activity(Label = "Fingerprint_Voter")]
-    public class Fingerprint_Voter : Activity
+    [Activity(Label = "Capture_Ballot")]
+    public class Capture_Ballot : Activity
     {
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
 
             // Create your application here
-            SetContentView(Resource.Layout.Fingerprint_Voter);
+            SetContentView(Resource.Layout.Capture_Ballot);
 
-            ImageButton fp = FindViewById<ImageButton>(Resource.Id.img_fp);
+            Button captureballot = FindViewById<Button>(Resource.Id.captureballot_butt);
 
-            fp.Click += delegate {
-                StartActivity(typeof(Tapat.Voter_Profile));
+
+            captureballot.Click += delegate {
+                StartActivity(typeof(Tapat.User_Votes));
             };
         }
+
     }
 }

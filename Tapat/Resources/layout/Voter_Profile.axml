@@ -10,173 +10,355 @@
         android:minHeight="25px"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/relativeLayout1" />
-    <ImageView
-        android:src="@android:drawable/ic_menu_gallery"
-        android:layout_width="200dp"
-        android:layout_height="200dp"
-        android:id="@+id/imageView1"
-        android:layout_gravity="center_horizontal" />
-    <TextView
-        android:text="Voter Information"
-        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/relative_main">
+        <ImageView
+            android:src="@drawable/logow"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:id="@+id/img_tapat"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="10dp" />
+        <ImageView
+            android:src="@android:drawable/ic_menu_gallery"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:id="@+id/picture"
+            android:layout_below="@+id/img_tapat"
+            android:layout_gravity="center_horizontal"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <ScrollView
+        android:minWidth="25px"
+        android:minHeight="25px"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/VoterInformation"
-        android:layout_marginLeft="20dp"
-        android:textSize="40dp"
-        android:layout_marginTop="10dp" />
-    <TextView
-        android:text="First Name:"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="40dp"
-        android:id="@+id/FName"
-        android:textSize="25dp"
-        android:layout_marginTop="5dp" />
-    <TextView
-        android:text="Last Name:"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="40dp"
-        android:textSize="25dp"
-        android:id="@+id/LName"
-        android:layout_marginTop="5dp" />
-    <TextView
-        android:text="Middle Name:"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="40dp"
-        android:id="@+id/MName"
-        android:textSize="25dp"
-        android:layout_marginTop="5dp" />
-    <TextView
-        android:text="Birthdate:"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="40dp"
-        android:textSize="25dp"
-        android:id="@+id/Birthdate"
-        android:layout_marginTop="5dp" />
-    <TextView
-        android:text="Sex:"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textSize="25dp"
-        android:layout_marginLeft="40dp"
-        android:id="@+id/Sex"
-        android:layout_marginTop="5dp" />
-    <TextView
-        android:text="Civil Status:"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="40dp"
-        android:textSize="25dp"
-        android:id="@+id/CStatus"
-        android:layout_marginTop="5dp" />
-    <TextView
-        android:text="Registration Details"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/RegistrationDetails"
-        android:layout_marginLeft="20dp"
-        android:textSize="40dp"
-        android:layout_marginTop="30dp" />
-    <TextView
-        android:text="Registration Date:"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="40dp"
-        android:textSize="25dp"
-        android:id="@+id/RegDate"
-        android:layout_marginTop="5dp" />
-    <TextView
-        android:text="Registration Status:"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="40dp"
-        android:textSize="25dp"
-        android:id="@+id/RegStatus"
-        android:layout_marginTop="5dp" />
-    <TextView
-        android:text="Biometrics Data:"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="40dp"
-        android:textSize="25dp"
-        android:id="@+id/BiometricsData"
-        android:layout_marginTop="5dp" />
-    <TextView
-        android:text="Voter's Registration Record:"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="40dp"
-        android:textSize="25dp"
-        android:id="@+id/VRegRecord"
-        android:layout_marginTop="5dp" />
-    <TextView
-        android:text="Voter's Identification Number:"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="40dp"
-        android:textSize="25dp"
-        android:id="@+id/VRegNo"
-        android:layout_marginTop="5dp" />
-    <TextView
-        android:text="Province:"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="40dp"
-        android:textSize="25dp"
-        android:id="@+id/Province"
-        android:layout_marginTop="5dp" />
-    <TextView
-        android:text="City/Municipality:"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="40dp"
-        android:textSize="25dp"
-        android:id="@+id/City"
-        android:layout_marginTop="5dp" />
-    <TextView
-        android:text="Barangay:"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="40dp"
-        android:id="@+id/Brgy"
-        android:textSize="25dp"
-        android:layout_marginTop="5dp" />
-    <TextView
-        android:text="Voting Center:"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="40dp"
-        android:textSize="25dp"
-        android:id="@+id/VotingCenter"
-        android:layout_marginTop="5dp" />
-    <Button
-        android:text="Proceed"
-        android:layout_width="400dp"
-        android:layout_height="100dp"
-        android:id="@+id/ProceedButton"
-        android:layout_gravity="right"
-        android:textSize="30dp"
-        android:layout_marginTop="40dp"
-        android:layout_marginRight="40dp" />
+        android:id="@+id/scrollView1">
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="30dp"
+            android:stretchColumns="1">
+            <TableRow
+                android:id="@+id/info">
+                <TextView
+                    android:text="Voter Information"
+                    android:layout_column="0"
+                    android:id="@+id/voter_info"
+                    android:layout_span="2"
+                    android:textSize="40dp"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="@android:color/holo_blue_dark"
+                    android:layout_width="264.0dp" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/firstname">
+                <TextView
+                    android:text="First Name:"
+                    android:layout_column="0"
+                    android:id="@+id/first_name"
+                    android:textSize="30dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_width="102.5dp" />
+                <TextView
+                    android:text="1"
+                    android:layout_column="1"
+                    android:id="@+id/fname"
+                    android:textSize="30dp"
+                    android:layout_marginTop="15dp"
+                    android:width="25dp" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/lastname">
+                <TextView
+                    android:text="Last Name:"
+                    android:layout_column="0"
+                    android:id="@+id/last_name"
+                    android:textSize="30dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="40dp" />
+                <TextView
+                    android:text="1"
+                    android:layout_column="1"
+                    android:id="@+id/lname"
+                    a=""
+                    android:textSize="30dp"
+                    android:layout_marginTop="15dp"
+                    android:width="25dp" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/middlename">
+                <TextView
+                    android:text="Middle Name:"
+                    android:layout_column="0"
+                    android:id="@+id/middle_name"
+                    android:textSize="30dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="15dp"
+                    android:width="25dp" />
+                <TextView
+                    android:text="2"
+                    android:layout_column="1"
+                    android:id="@+id/midname"
+                    android:textSize="30dp"
+                    android:layout_marginTop="15dp"
+                    android:width="25dp" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/birthdatee">
+                <TextView
+                    android:text="Birthdate:"
+                    android:layout_column="0"
+                    android:id="@+id/b_date"
+                    android:textSize="30dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="15dp"
+                    android:width="25dp" />
+                <TextView
+                    android:text="3"
+                    android:layout_column="1"
+                    android:id="@+id/bdate"
+                    android:textSize="30dp"
+                    android:layout_marginTop="15dp"
+                    android:width="25dp" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/gender">
+                <TextView
+                    android:text="Sex:"
+                    android:layout_column="0"
+                    android:id="@+id/sex"
+                    android:textSize="30dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="15dp"
+                    android:width="25dp" />
+                <TextView
+                    android:text="4"
+                    android:layout_column="1"
+                    android:id="@+id/sexx"
+                    android:textSize="30dp"
+                    android:layout_marginTop="15dp"
+                    android:width="25dp" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/civil">
+                <TextView
+                    android:text="Civil Status"
+                    android:layout_column="0"
+                    android:id="@+id/civil_status"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="15dp"
+                    android:textSize="30dp"
+                    android:width="25dp" />
+                <TextView
+                    android:text="5"
+                    android:layout_column="1"
+                    android:id="@+id/cstatus"
+                    android:layout_marginTop="15dp"
+                    android:textSize="30dp"
+                    android:width="25dp" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/details">
+                <TextView
+                    android:text="Registration Details"
+                    android:layout_column="0"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_span="2"
+                    android:id="@+id/reg"
+                    android:textSize="40dp"
+                    android:textColor="@android:color/holo_blue_dark"
+                    android:width="25dp" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/regisdate">
+                <TextView
+                    android:text="Registration Date:"
+                    android:layout_column="0"
+                    android:id="@+id/reg_date"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="15dp"
+                    android:textSize="30dp"
+                    android:width="25dp" />
+                <TextView
+                    android:text="2"
+                    android:layout_column="1"
+                    android:id="@+id/regdate"
+                    android:layout_marginTop="15dp"
+                    android:textSize="30dp"
+                    android:width="25dp" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/registatus">
+                <TextView
+                    android:text="Registration Status:"
+                    android:layout_column="0"
+                    android:id="@+id/reg_status"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="15dp"
+                    android:textSize="30dp"
+                    android:width="25dp" />
+                <TextView
+                    android:text="2"
+                    android:layout_column="1"
+                    android:id="@+id/regstatus"
+                    android:textSize="30dp"
+                    android:layout_marginTop="15dp"
+                    android:width="25dp" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/biometdata">
+                <TextView
+                    android:text="Biometrics Data:"
+                    android:layout_column="0"
+                    android:id="@+id/biometrics_data"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="15dp"
+                    android:textSize="30dp"
+                    android:width="25dp" />
+                <TextView
+                    android:text="9"
+                    android:layout_column="1"
+                    android:id="@+id/biodata"
+                    android:textSize="30dp"
+                    android:layout_marginTop="15dp"
+                    android:width="25dp" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/regisrecord">
+                <TextView
+                    android:text="Voter's Registration Record:"
+                    android:layout_column="0"
+                    android:id="@+id/reg_record"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="15dp"
+                    android:textSize="30dp"
+                    android:width="25dp" />
+                <TextView
+                    android:text="9"
+                    android:layout_column="1"
+                    android:id="@+id/regisrecord"
+                    android:layout_marginTop="15dp"
+                    android:textSize="30dp"
+                    android:width="25dp" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/vidnum">
+                <TextView
+                    android:text="Voter's Identification Number:"
+                    android:layout_column="0"
+                    android:id="@+id/id_num"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="15dp"
+                    android:textSize="30dp"
+                    android:width="25dp" />
+                <TextView
+                    android:text="9"
+                    android:layout_column="1"
+                    android:id="@+id/voteridnum"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="15dp"
+                    android:textSize="30dp"
+                    android:width="25dp" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/prov">
+                <TextView
+                    android:text="Province:"
+                    android:layout_column="0"
+                    android:id="@+id/provincee"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="15dp"
+                    android:textSize="30dp"
+                    android:width="25dp" />
+                <TextView
+                    android:text="9"
+                    android:layout_column="1"
+                    android:id="@+id/province"
+                    android:textSize="30dp"
+                    android:layout_marginTop="15dp"
+                    android:width="25dp" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/cityy">
+                <TextView
+                    android:text="City/Municipality:"
+                    android:layout_column="0"
+                    android:id="@+id/cty"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="15dp"
+                    android:textSize="30dp"
+                    android:layout_width="264.0dp" />
+                <TextView
+                    android:text="1"
+                    android:layout_column="1"
+                    android:id="@+id/city"
+                    android:textSize="30dp"
+                    android:layout_marginTop="15dp"
+                    android:width="30dp" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/barangg">
+                <TextView
+                    android:text="Barangay:"
+                    android:layout_column="0"
+                    android:id="@+id/baranggay"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="15dp"
+                    android:textSize="30dp"
+                    android:layout_width="264.0dp" />
+                <TextView
+                    android:text="1"
+                    android:layout_column="1"
+                    android:id="@+id/brgy"
+                    android:layout_marginTop="15dp"
+                    android:textSize="30dp"
+                    android:width="30dp" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/vcenter">
+                <TextView
+                    android:text="Voting Center:"
+                    android:layout_column="0"
+                    android:id="@+id/voting_center"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="15dp"
+                    android:textSize="30dp"
+                    android:layout_width="264.0dp" />
+                <TextView
+                    android:text="1"
+                    android:layout_column="1"
+                    android:id="@+id/vcenter"
+                    android:layout_marginTop="15dp"
+                    android:textSize="30dp"
+                    android:width="30dp" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/buttons">
+                <Button
+                    android:text="Try Again     (Ulitin)"
+                    android:layout_width="200dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/try_again"
+                    android:textSize="30dp"
+                    android:onClick="again"
+                    android:clickable="true"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="50dp" />
+                <Button
+                    android:text="Proceed         (Ipagpatuloy)"
+                    android:layout_width="200dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/proceed_butt"
+                    android:textSize="30dp"
+                    android:onClick="proceed"
+                    android:clickable="true"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="142.0dp"
+                    android:layout_marginRight="50dp" />
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
 </LinearLayout>

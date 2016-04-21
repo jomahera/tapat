@@ -12,20 +12,21 @@ using Android.Widget;
 
 namespace Tapat
 {
-    [Activity(Label = "Fingerprint_Voter")]
-    public class Fingerprint_Voter : Activity
+    [Activity(Label = "Verify_VVPAT")]
+    public class Verify_VVPAT : Activity
     {
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
 
             // Create your application here
-            SetContentView(Resource.Layout.Fingerprint_Voter);
+            SetContentView(Resource.Layout.Verify_VVPAT);
 
-            ImageButton fp = FindViewById<ImageButton>(Resource.Id.img_fp);
+            Button confirm = FindViewById<Button>(Resource.Id.confirm_VVPAT);
 
-            fp.Click += delegate {
-                StartActivity(typeof(Tapat.Voter_Profile));
+
+            confirm.Click += delegate {
+                StartActivity(typeof(Tapat.Cast_Vote));
             };
         }
     }

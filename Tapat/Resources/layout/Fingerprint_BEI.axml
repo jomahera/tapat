@@ -13,14 +13,12 @@
         android:id="@+id/relative_main">
         <ImageView
             android:src="@drawable/logow"
-            android:layout_width="500dp"
-            android:layout_height="143.0dp"
-            android:layout_below="@+id/img_rop_coa"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
             android:id="@+id/img_tapat"
-            android:layout_marginTop="30dp"
-            android:layout_alignParentLeft="true"
-            android:layout_marginLeft="30dp"
-            android:layout_marginRight="30dp" />
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="10dp" />
     </RelativeLayout>
     <RelativeLayout
         android:minWidth="25px"
@@ -37,7 +35,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="50dp"
             android:layout_marginRight="50dp"
-            android:layout_marginTop="100dp"
+            android:layout_marginTop="150dp"
             android:layout_gravity="center_horizontal"
             android:gravity="center" />
         <TextView
@@ -50,7 +48,7 @@
             android:layout_height="wrap_content"
             android:layout_marginRight="50dp"
             android:layout_marginLeft="50dp"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="50dp"
             android:layout_below="@+id/fptext_eng"
             android:gravity="center" />
         <ImageButton
