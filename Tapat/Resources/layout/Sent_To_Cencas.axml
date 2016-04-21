@@ -16,7 +16,7 @@
             android:layout_width="300dp"
             android:layout_height="100dp"
             android:id="@+id/img_tapat"
-            android:layout_marginTop="30dp"
+            android:layout_marginTop="20dp"
             android:layout_marginRight="30dp"
             android:layout_marginLeft="10dp" />
     </RelativeLayout>
@@ -38,12 +38,13 @@
         android:textAlignment="center"
         android:gravity="center" />
     <Button
-        android:text="Main Menu"
+        android:text="Log-out"
         android:id="@+id/main"
         android:layout_width="500dp"
         android:layout_height="100dp"
         android:layout_marginTop="150dp"
         android:textSize="40dp"
         android:gravity="center"
+        android:background="#228B22"
         android:layout_gravity="center" />
 </LinearLayout>

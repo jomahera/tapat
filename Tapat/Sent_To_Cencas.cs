@@ -21,10 +21,10 @@ namespace Tapat
 
             // Create your application here
             SetContentView(Resource.Layout.Sent_To_Cencas);
-            Button mainmenu = FindViewById<Button>(Resource.Id.main);
+            Button logout = FindViewById<Button>(Resource.Id.main);
 
-            mainmenu.Click += delegate {
-                StartActivity(typeof(Tapat.MainMenu));
+            logout.Click += delegate {
+                StartActivity(typeof(Tapat.Logout));
             };
         }
     }

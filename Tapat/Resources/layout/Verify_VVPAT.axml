@@ -16,7 +16,7 @@
             android:layout_width="300dp"
             android:layout_height="100dp"
             android:id="@+id/img_tapat"
-            android:layout_marginTop="30dp"
+            android:layout_marginTop="20dp"
             android:layout_marginRight="30dp"
             android:layout_marginLeft="10dp" />
         <TextView
@@ -30,6 +30,18 @@
             android:layout_marginTop="30dp"
             android:layout_marginLeft="100dp"
             android:layout_below="@+id/img_tapat" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tagalog"
+            android:textSize="30dp"
+            android:text="(Siguraduhing tama ang mga nabasang boto ng makina.)"
+            android:textColor="#FFFF0A"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="100dp"
+            android:layout_below="@+id/choose" />
     </RelativeLayout>
     <ScrollView
         android:minWidth="25px"
@@ -432,17 +444,54 @@
             <TableRow
                 android:id="@+id/button">
                 <Button
-                    android:text="Capture Ballot"
+                    android:text="Confirm                     (Tama)"
                     android:layout_span="2"
                     android:id="@+id/confirm_button"
-                    android:layout_width="500dp"
+                    android:layout_width="200dp"
                     android:layout_height="100dp"
                     android:layout_marginTop="100dp"
                     android:textSize="40dp"
                     android:gravity="center"
-                    android:layout_gravity="center"
                     android:onClick="proceed"
-                    android:background="#228B22" />
+                    android:background="#228B22"
+                    android:layout_marginLeft="200dp"
+                    android:layout_marginRight="200dp" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/vcenter">
+                <TextView
+                    android:text=""
+                    android:layout_column="0"
+                    android:id="@+id/voting"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="15dp"
+                    android:textSize="30dp"
+                    android:layout_width="264.0dp" />
+                <TextView
+                    android:text=""
+                    android:layout_column="1"
+                    android:id="@+id/vcenter"
+                    android:layout_marginTop="15dp"
+                    android:textSize="30dp"
+                    android:width="30dp" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/vcenter">
+                <TextView
+                    android:text=""
+                    android:layout_column="0"
+                    android:id="@+id/voting"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="15dp"
+                    android:textSize="30dp"
+                    android:layout_width="264.0dp" />
+                <TextView
+                    android:text=""
+                    android:layout_column="1"
+                    android:id="@+id/vcenter"
+                    android:layout_marginTop="15dp"
+                    android:textSize="30dp"
+                    android:width="30dp" />
             </TableRow>
         </TableLayout>
     </ScrollView>

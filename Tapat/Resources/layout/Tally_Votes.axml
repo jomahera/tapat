@@ -16,123 +16,1133 @@
             android:layout_width="300dp"
             android:layout_height="100dp"
             android:id="@+id/img_tapat"
-            android:layout_marginTop="30dp"
+            android:layout_marginTop="20dp"
             android:layout_marginRight="30dp"
             android:layout_marginLeft="10dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/choose"
+            android:textSize="40dp"
+            android:textColor="@android:color/holo_blue_dark"
+            android:text="Tallied Votes"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="100dp"
+            android:layout_below="@+id/img_tapat" />
     </RelativeLayout>
-    <RelativeLayout
+    <ScrollView
         android:minWidth="25px"
         android:minHeight="25px"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/relativeLayout1" />
-    <TextView
-        android:text="President:"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:layout_width="169.0dp"
-        android:layout_height="47.0dp"
-        android:id="@+id/textView1"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="5dp"
-        android:textSize="25dp" />
-    <TextView
-        android:text="Vice-President:"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
-        android:id="@+id/textView2"
-        android:textSize="25dp"
-        android:layout_marginLeft="20dp" />
-    <TextView
-        android:text="Senators:"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:id="@+id/textView4"
-        android:textSize="25dp"
-        android:layout_marginLeft="20dp" />
-    <TextView
-        android:text="Party List Group: "
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:id="@+id/textView3"
-        android:textSize="25dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="270.0dp" />
-    <TextView
-        android:text="House of Representatives:"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="10dp"
-        android:textSize="25dp"
-        android:id="@+id/textView8" />
-    <TextView
-        android:text="Provincial Governor:"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView4"
-        android:textSize="25dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginLeft="20dp" />
-    <TextView
-        android:text="Provincial Vice-Governor:"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView4"
-        android:layout_marginTop="10dp"
-        android:textSize="25dp"
-        android:layout_marginLeft="20dp" />
-    <TextView
-        android:text="Mayor:"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:layout_width="155.0dp"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView4"
-        android:textSize="25dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginLeft="20dp" />
-    <TextView
-        android:text="Vice-Mayor:"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView4"
-        android:layout_marginTop="10dp"
-        android:textSize="25dp"
-        android:layout_marginLeft="20dp" />
-    <TextView
-        android:text="Member, Sangguniang Panlalawigan:"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView4"
-        android:textSize="25dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginLeft="20dp" />
-    <TextView
-        android:text="Member, Sangguniang Panglungsod:"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView4"
-        android:textSize="25dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginLeft="20dp" />
-    <Button
-        android:text="Send to Cencas"
-        android:layout_width="450dp"
-        android:layout_height="100dp"
-        android:textSize="30dp"
-        android:layout_marginTop="80dp"
-        android:id="@+id/send"
-        android:gravity="center"
-        android:layout_gravity="center" />
+        android:id="@+id/scrollView1">
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="30dp"
+            android:stretchColumns="1">
+            <TableRow
+                android:id="@+id/President">
+                <TextView
+                    android:text="President"
+                    android:textColor="#FFFF0A"
+                    android:layout_column="0"
+                    android:id="@+id/pres"
+                    android:textSize="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="264.0dp" />
+                <TextView
+                    android:text=""
+                    android:layout_column="1"
+                    android:id="@+id/pres1"
+                    android:textSize="30dp"
+                    android:width="30dp" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/binay">
+                <TextView
+                    android:text="1. BINAY, JOJO (UNA)"
+                    android:layout_column="0"
+                    android:id="@+id/pres"
+                    android:textSize="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_width="264.0dp" />
+                <TextView
+                    android:text="1"
+                    android:layout_column="1"
+                    android:id="@+id/pres1"
+                    android:textSize="30dp"
+                    android:width="30dp" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/miriam">
+                <TextView
+                    android:text="2. DEFENSOR SANTIAGO, MIRIAM (PRP)"
+                    android:layout_column="0"
+                    android:id="@+id/pres"
+                    android:textSize="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_width="567.0dp" />
+                <TextView
+                    android:text="1"
+                    android:layout_column="1"
+                    android:id="@+id/pres1"
+                    android:textSize="30dp"
+                    android:width="30dp" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/duterte">
+                <TextView
+                    android:text="3. DUTERTE, RODY (PDPLBN)"
+                    android:layout_column="0"
+                    android:id="@+id/pres"
+                    android:textSize="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_width="264.0dp" />
+                <TextView
+                    android:text="1"
+                    android:layout_column="1"
+                    android:id="@+id/pres1"
+                    android:textSize="30dp"
+                    android:width="30dp"
+                    android:layout_width="170.0dp" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/poe">
+                <TextView
+                    android:text="4. POE, GRACE (IND)"
+                    android:layout_column="0"
+                    android:id="@+id/pres"
+                    android:textSize="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_width="264.0dp" />
+                <TextView
+                    android:text="1"
+                    android:layout_column="1"
+                    android:id="@+id/pres1"
+                    android:textSize="30dp"
+                    android:width="30dp" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/roxas">
+                <TextView
+                    android:text="5. ROXAS, MAR DAANG MATUWID (LP)"
+                    android:layout_column="0"
+                    android:id="@+id/pres"
+                    android:textSize="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_width="264.0dp" />
+                <TextView
+                    android:text="1"
+                    android:layout_column="1"
+                    android:id="@+id/pres1"
+                    android:textSize="30dp"
+                    android:width="30dp" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/VP">
+                <TextView
+                    android:text="Vice-President"
+                    android:textColor="#FFFF0A"
+                    android:layout_column="0"
+                    android:id="@+id/vpres"
+                    android:textSize="30dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="102.5dp" />
+                <TextView
+                    android:text=""
+                    android:layout_column="1"
+                    android:id="@+id/vp1"
+                    android:textSize="30dp"
+                    android:layout_marginTop="15dp"
+                    android:width="25dp" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/CAYETANO">
+                <TextView
+                    android:text="1. CAYETANO, ALAN PETER (IND)"
+                    android:layout_column="0"
+                    android:id="@+id/vpres"
+                    android:textSize="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_width="102.5dp" />
+                <TextView
+                    android:text="1"
+                    android:layout_column="1"
+                    android:id="@+id/vp1"
+                    android:textSize="30dp"
+                    android:width="25dp" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/ESCUDERO">
+                <TextView
+                    android:text="2. ESCUDERO, CHIZ (IND)"
+                    android:layout_column="0"
+                    android:id="@+id/vpres2"
+                    android:textSize="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_width="102.5dp" />
+                <TextView
+                    android:text="1"
+                    android:layout_column="1"
+                    android:id="@+id/vp1"
+                    android:textSize="30dp"
+                    android:width="25dp" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/HONASAN">
+                <TextView
+                    android:text="3. HONASAN, GRINGO (UNA)"
+                    android:layout_column="0"
+                    android:id="@+id/vpres3"
+                    android:textSize="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_width="102.5dp" />
+                <TextView
+                    android:text="1"
+                    android:layout_column="1"
+                    android:id="@+id/vp3"
+                    android:textSize="30dp"
+                    android:width="25dp" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/MARCOS">
+                <TextView
+                    android:text="4. MARCOS, BONGBONG (IND)"
+                    android:layout_column="0"
+                    android:id="@+id/vpres"
+                    android:textSize="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_width="102.5dp" />
+                <TextView
+                    android:text="1"
+                    android:layout_column="1"
+                    android:id="@+id/vp4"
+                    android:textSize="30dp"
+                    android:width="25dp" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/ROBREDO">
+                <TextView
+                    android:text="5. ROBREDO, LENI DAANG MATUWID (LP)"
+                    android:layout_column="0"
+                    android:id="@+id/vpres"
+                    android:textSize="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_width="102.5dp" />
+                <TextView
+                    android:text="1"
+                    android:layout_column="1"
+                    android:id="@+id/vp5"
+                    android:textSize="30dp"
+                    android:width="25dp" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/TRILLANES">
+                <TextView
+                    android:text="6. TRILLANES, ANTONIO IV (IND)"
+                    android:layout_column="0"
+                    android:id="@+id/vpres"
+                    android:textSize="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_width="102.5dp" />
+                <TextView
+                    android:text="1"
+                    android:layout_column="1"
+                    android:id="@+id/vp6"
+                    android:textSize="30dp"
+                    android:width="25dp" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/senators">
+                <TextView
+                    android:text="Senators"
+                    android:textColor="#FFFF0A"
+                    android:layout_column="0"
+                    android:id="@+id/senator"
+                    android:textSize="30dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="10dp" />
+                <TextView
+                    android:text=""
+                    android:layout_column="1"
+                    android:id="@+id/sen1"
+                    a=""
+                    android:textSize="30dp"
+                    android:width="25dp" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/blank">
+                <TextView
+                    android:text="1. ALBANI, SHARIFF (IND)"
+                    android:layout_column="0"
+                    android:id="@+id/blank"
+                    android:textSize="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:width="25dp" />
+                <TextView
+                    android:text="2"
+                    android:layout_column="1"
+                    android:id="@+id/sen1"
+                    android:textSize="30dp"
+                    android:width="25dp" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/blank">
+                <TextView
+                    android:text="2. ALI, ALDIN (WPPPMM)"
+                    android:layout_column="0"
+                    android:id="@+id/blank"
+                    android:textSize="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:width="25dp" />
+                <TextView
+                    android:text="3"
+                    android:layout_column="1"
+                    android:id="@+id/sen2"
+                    android:textSize="30dp"
+                    android:width="25dp" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/blank">
+                <TextView
+                    android:text="3. ALUNAN, RAFFY (IND)"
+                    android:layout_column="0"
+                    android:id="@+id/blank"
+                    android:textSize="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:width="25dp" />
+                <TextView
+                    android:text="4"
+                    android:layout_column="1"
+                    android:id="@+id/sen3"
+                    android:textSize="30dp"
+                    android:width="25dp" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/blank">
+                <TextView
+                    android:text="4. AMBOLODTO, INA (LP)"
+                    android:layout_column="0"
+                    android:id="@+id/blank"
+                    android:textSize="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:width="25dp" />
+                <TextView
+                    android:text="5"
+                    android:layout_column="1"
+                    android:id="@+id/sen4"
+                    android:textSize="30dp"
+                    android:width="25dp" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/blank">
+                <TextView
+                    android:text="5. ARQUIZA, GODOFREDO (IND)"
+                    android:layout_column="0"
+                    android:id="@+id/blank"
+                    android:textSize="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:width="25dp" />
+                <TextView
+                    android:text="2"
+                    android:layout_column="1"
+                    android:id="@+id/sen5"
+                    android:textSize="30dp"
+                    android:width="25dp" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/blank">
+                <TextView
+                    android:text="6. BALIGOD, LEVITO (IND)"
+                    android:layout_column="0"
+                    android:id="@+id/blank"
+                    android:textSize="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:width="25dp" />
+                <TextView
+                    android:text="2"
+                    android:layout_column="1"
+                    android:id="@+id/sen6"
+                    android:textSize="30dp"
+                    android:width="25dp" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/blank">
+                <TextView
+                    android:text="7. BELGICA, GRECO (IND)"
+                    android:layout_column="0"
+                    android:id="@+id/blank"
+                    android:textSize="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:width="25dp" />
+                <TextView
+                    android:text="2"
+                    android:layout_column="1"
+                    android:id="@+id/sen7"
+                    android:textSize="30dp"
+                    android:width="25dp" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/blank">
+                <TextView
+                    android:text="8. BELLO, WALDEN (IND)"
+                    android:layout_column="0"
+                    android:id="@+id/blank"
+                    android:textSize="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:width="25dp" />
+                <TextView
+                    android:text="9"
+                    android:layout_column="1"
+                    android:id="@+id/sen8"
+                    android:textSize="30dp"
+                    android:width="25dp" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/blank">
+                <TextView
+                    android:text="9. CAM, SANDRA (PMP)"
+                    android:layout_column="0"
+                    android:id="@+id/blank"
+                    android:layout_marginLeft="30dp"
+                    android:textSize="30dp"
+                    android:width="25dp" />
+                <TextView
+                    android:text="9"
+                    android:layout_column="1"
+                    android:id="@+id/sen9"
+                    android:textSize="30dp"
+                    android:width="25dp" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/blank">
+                <TextView
+                    android:text="10. CHAVEZ, MEL (WPPPMM)"
+                    android:layout_column="0"
+                    android:id="@+id/blank"
+                    android:textSize="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:width="25dp" />
+                <TextView
+                    android:text="9"
+                    android:layout_column="1"
+                    android:id="@+id/sen10"
+                    android:textSize="30dp"
+                    android:width="25dp" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/blank">
+                <TextView
+                    android:text="11. COLMENARES, NERI (MKBYN)"
+                    android:layout_column="0"
+                    android:id="@+id/blank"
+                    android:textSize="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:width="25dp" />
+                <TextView
+                    android:text="9"
+                    android:layout_column="1"
+                    android:id="@+id/sen11"
+                    android:textSize="30dp"
+                    android:width="25dp" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/blank">
+                <TextView
+                    android:text="12. DE LIMA, LEILA (LP) "
+                    android:layout_column="0"
+                    android:id="@+id/blank"
+                    android:textSize="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:width="25dp" />
+                <TextView
+                    android:text="9"
+                    android:layout_column="1"
+                    android:id="@+id/sen12"
+                    android:textSize="30dp"
+                    android:width="25dp" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/blank">
+                <TextView
+                    android:text="13. DOMAGOSO, ISKO MORENO (PMP)"
+                    android:layout_column="0"
+                    android:id="@+id/blank"
+                    android:textSize="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:width="25dp" />
+                <TextView
+                    android:text="9"
+                    android:layout_column="1"
+                    android:id="@+id/sen13"
+                    android:textSize="30dp"
+                    android:width="25dp" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/blank">
+                <TextView
+                    android:text="14. DORONA, RAY (IND)"
+                    android:layout_column="0"
+                    android:id="@+id/blank"
+                    android:textSize="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:width="25dp" />
+                <TextView
+                    android:text="9"
+                    android:layout_column="1"
+                    android:id="@+id/sen14"
+                    android:textSize="30dp"
+                    android:width="25dp" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/blank">
+                <TextView
+                    android:text=" 15. DRILON, FRANK (LP)"
+                    android:layout_column="0"
+                    android:id="@+id/blank"
+                    android:textSize="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:width="25dp" />
+                <TextView
+                    android:text="9"
+                    android:layout_column="1"
+                    android:id="@+id/sen15"
+                    android:textSize="30dp"
+                    android:width="25dp" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/blank">
+                <TextView
+                    android:text=" 16. GADON, LARRY (KBL)"
+                    android:layout_column="0"
+                    android:id="@+id/blank"
+                    android:textSize="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:width="25dp" />
+                <TextView
+                    android:text="9"
+                    android:layout_column="1"
+                    android:id="@+id/sen16"
+                    android:textSize="30dp"
+                    android:width="25dp" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/blank">
+                <TextView
+                    android:text="17. GATCHALIAN, WIN (NPC) "
+                    android:layout_column="0"
+                    android:id="@+id/blank"
+                    android:textSize="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:width="25dp" />
+                <TextView
+                    android:text="9"
+                    android:layout_column="1"
+                    android:id="@+id/sen17"
+                    android:textSize="30dp"
+                    android:width="25dp" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/blank">
+                <TextView
+                    android:text="18. GORDON, DICK (IND) "
+                    android:layout_column="0"
+                    android:id="@+id/blank"
+                    android:textSize="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:width="25dp" />
+                <TextView
+                    android:text="9"
+                    android:layout_column="1"
+                    android:id="@+id/sen18"
+                    android:textSize="30dp"
+                    android:width="25dp" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/blank">
+                <TextView
+                    android:text=" 19. GUINGONA, TG (LP)"
+                    android:layout_column="0"
+                    android:id="@+id/blank"
+                    android:textSize="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:width="25dp" />
+                <TextView
+                    android:text="9"
+                    android:layout_column="1"
+                    android:id="@+id/sen19"
+                    android:textSize="30dp"
+                    android:width="25dp" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/blank">
+                <TextView
+                    android:text="20. HONTIVEROS, RISA (AKBYN) "
+                    android:layout_column="0"
+                    android:id="@+id/blank"
+                    android:textSize="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:width="25dp" />
+                <TextView
+                    android:text="9"
+                    android:layout_column="1"
+                    android:id="@+id/sen20"
+                    android:textSize="30dp"
+                    android:width="25dp" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/blank">
+                <TextView
+                    android:text="21. KABALU, EID (IND) "
+                    android:layout_column="0"
+                    android:id="@+id/blank"
+                    android:layout_marginLeft="30dp"
+                    android:textSize="30dp"
+                    android:width="25dp" />
+                <TextView
+                    android:text="9"
+                    android:layout_column="1"
+                    android:id="@+id/sen21"
+                    android:textSize="30dp"
+                    android:width="25dp" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/blank">
+                <TextView
+                    android:text=" 22. KAPUNAN, ATTY. LORNA (AKSYON)"
+                    android:layout_column="0"
+                    android:id="@+id/blank"
+                    android:layout_marginLeft="30dp"
+                    android:textSize="30dp"
+                    android:width="25dp" />
+                <TextView
+                    android:text="9"
+                    android:layout_column="1"
+                    android:id="@+id/sen22"
+                    android:textSize="30dp"
+                    android:width="25dp" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/blank">
+                <TextView
+                    android:text="23. KIRAM, PRINCESS JACEL (UNA) "
+                    android:layout_column="0"
+                    android:id="@+id/blank"
+                    android:textSize="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:width="25dp" />
+                <TextView
+                    android:text="9"
+                    android:layout_column="1"
+                    android:id="@+id/sen23"
+                    android:textSize="30dp"
+                    android:width="25dp" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/blank">
+                <TextView
+                    android:text="24. LACSAMANA, ALMA MORENO (UNA) "
+                    android:layout_column="0"
+                    android:id="@+id/blank"
+                    android:textSize="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:width="25dp" />
+                <TextView
+                    android:text="9"
+                    android:layout_column="1"
+                    android:id="@+id/sen24"
+                    android:textSize="30dp"
+                    android:width="25dp" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/blank">
+                <TextView
+                    android:text="25. LACSON, PANFILO PING (IND) "
+                    android:layout_column="0"
+                    android:id="@+id/blank"
+                    android:textSize="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:width="25dp" />
+                <TextView
+                    android:text="9"
+                    android:layout_column="1"
+                    android:id="@+id/sen25"
+                    android:textSize="30dp"
+                    android:width="25dp" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/blank">
+                <TextView
+                    android:text="26. LANGIT, REY (UNA)"
+                    android:layout_column="0"
+                    android:id="@+id/blank"
+                    android:layout_marginLeft="30dp"
+                    android:textSize="30dp"
+                    android:width="25dp" />
+                <TextView
+                    android:text="9"
+                    android:layout_column="1"
+                    android:id="@+id/sen26"
+                    android:textSize="30dp"
+                    android:width="25dp" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/blank">
+                <TextView
+                    android:text="27. LAPID, MARK (AKSYON)"
+                    android:layout_column="0"
+                    android:id="@+id/blank"
+                    android:layout_marginLeft="30dp"
+                    android:textSize="30dp"
+                    android:width="25dp" />
+                <TextView
+                    android:text="9"
+                    android:layout_column="1"
+                    android:id="@+id/sen27"
+                    android:textSize="30dp"
+                    android:width="25dp" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/blank">
+                <TextView
+                    android:text="28. LIBAN, DANTE (IND) "
+                    android:layout_column="0"
+                    android:id="@+id/blank"
+                    android:layout_marginLeft="30dp"
+                    android:textSize="30dp"
+                    android:width="25dp" />
+                <TextView
+                    android:text="9"
+                    android:layout_column="1"
+                    android:id="@+id/sen28"
+                    android:textSize="30dp"
+                    android:width="25dp" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/blank">
+                <TextView
+                    android:text="29. MAGANTO, ROMEO (LAKAS) "
+                    android:layout_column="0"
+                    android:id="@+id/blank"
+                    android:textSize="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:width="25dp" />
+                <TextView
+                    android:text="9"
+                    android:layout_column="1"
+                    android:id="@+id/sen29"
+                    android:textSize="30dp"
+                    android:width="25dp" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/blank">
+                <TextView
+                    android:text="30. MANZANO, EDU (IND) "
+                    android:layout_column="0"
+                    android:id="@+id/blank"
+                    android:textSize="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:width="25dp" />
+                <TextView
+                    android:text="9"
+                    android:layout_column="1"
+                    android:id="@+id/sen30"
+                    android:textSize="30dp"
+                    android:width="25dp" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/blank">
+                <TextView
+                    android:text="31. MONTANO, ALLAN (UNA) "
+                    android:layout_column="0"
+                    android:id="@+id/blank"
+                    android:textSize="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:width="25dp" />
+                <TextView
+                    android:text="9"
+                    android:layout_column="1"
+                    android:id="@+id/sen31"
+                    android:textSize="30dp"
+                    android:width="25dp" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/blank">
+                <TextView
+                    android:text="32. MONTAÑO, MON (IND) "
+                    android:layout_column="0"
+                    android:id="@+id/blank"
+                    android:textSize="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:width="25dp" />
+                <TextView
+                    android:text="9"
+                    android:layout_column="1"
+                    android:id="@+id/sen32"
+                    android:textSize="30dp"
+                    android:width="25dp" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/blank">
+                <TextView
+                    android:text="33. NAPEÑAS, GETULIO (UNA) "
+                    android:layout_column="0"
+                    android:id="@+id/blank"
+                    android:layout_marginLeft="30dp"
+                    android:textSize="30dp"
+                    android:width="25dp" />
+                <TextView
+                    android:text="9"
+                    android:layout_column="1"
+                    android:id="@+id/sen33"
+                    android:textSize="30dp"
+                    android:width="25dp" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/blank">
+                <TextView
+                    android:text="34. OPLE, SUSAN (NP) "
+                    android:layout_column="0"
+                    android:id="@+id/blank"
+                    android:layout_marginLeft="30dp"
+                    android:textSize="30dp"
+                    android:width="25dp" />
+                <TextView
+                    android:text="9"
+                    android:layout_column="1"
+                    android:id="@+id/sen34"
+                    android:textSize="30dp"
+                    android:width="25dp" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/blank">
+                <TextView
+                    android:text="35. OSMEÑA, SERGIO III (IND) "
+                    android:layout_column="0"
+                    android:id="@+id/blank"
+                    android:textSize="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:width="25dp" />
+                <TextView
+                    android:text="9"
+                    android:layout_column="1"
+                    android:id="@+id/sen35"
+                    android:textSize="30dp"
+                    android:width="25dp" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/blank">
+                <TextView
+                    android:text="36. PACQUIAO, MANNY (UNA) "
+                    android:layout_column="0"
+                    android:id="@+id/blank"
+                    android:textSize="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:width="25dp" />
+                <TextView
+                    android:text="9"
+                    android:layout_column="1"
+                    android:id="@+id/sen11"
+                    android:textSize="30dp"
+                    android:width="25dp" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/blank">
+                <TextView
+                    android:text="37. PAEZ, MR. COOP (IND) "
+                    android:layout_column="0"
+                    android:id="@+id/blank"
+                    android:textSize="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:width="25dp" />
+                <TextView
+                    android:text="9"
+                    android:layout_column="1"
+                    android:id="@+id/sen37"
+                    android:textSize="30dp"
+                    android:width="25dp" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/blank">
+                <TextView
+                    android:text="38. PAGDILAO, SAMUEL (IND) "
+                    android:layout_column="0"
+                    android:id="@+id/blank"
+                    android:textSize="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:width="25dp" />
+                <TextView
+                    android:text="9"
+                    android:layout_column="1"
+                    android:id="@+id/sen38"
+                    android:textSize="30dp"
+                    android:width="25dp" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/blank">
+                <TextView
+                    android:text="39. PALPARAN, JOVITO JR. (IND) "
+                    android:layout_column="0"
+                    android:id="@+id/blank"
+                    android:layout_marginLeft="30dp"
+                    android:textSize="30dp"
+                    android:width="25dp" />
+                <TextView
+                    android:text="9"
+                    android:layout_column="1"
+                    android:id="@+id/sen39"
+                    android:textSize="30dp"
+                    android:width="25dp" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/blank">
+                <TextView
+                    android:text="40. PANGILINAN, KIKO (LP) "
+                    android:layout_column="0"
+                    android:id="@+id/blank"
+                    android:textSize="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:width="25dp" />
+                <TextView
+                    android:text="9"
+                    android:layout_column="1"
+                    android:id="@+id/sen40"
+                    android:textSize="30dp"
+                    android:width="25dp" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/blank">
+                <TextView
+                    android:text="41. PETILLA, CARLOS JERICHO (LP) "
+                    android:layout_column="0"
+                    android:id="@+id/blank"
+                    android:textSize="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:width="25dp" />
+                <TextView
+                    android:text="9"
+                    android:layout_column="1"
+                    android:id="@+id/sen41"
+                    android:textSize="30dp"
+                    android:width="25dp" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/blank">
+                <TextView
+                    android:text="42. RECTO, RALPH (LP) "
+                    android:layout_column="0"
+                    android:id="@+id/blank"
+                    android:textSize="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:width="25dp" />
+                <TextView
+                    android:text="9"
+                    android:layout_column="1"
+                    android:id="@+id/sen42"
+                    android:textSize="30dp"
+                    android:width="25dp" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/blank">
+                <TextView
+                    android:text="43. ROMUALDEZ, MARTIN (LAKAS) "
+                    android:layout_column="0"
+                    android:id="@+id/blank"
+                    android:layout_marginLeft="30dp"
+                    android:textSize="30dp"
+                    android:width="25dp" />
+                <TextView
+                    android:text="9"
+                    android:layout_column="1"
+                    android:id="@+id/sen43"
+                    android:textSize="30dp"
+                    android:width="25dp" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/blank">
+                <TextView
+                    android:text="44. ROMULO, ROMAN (IND) "
+                    android:layout_column="0"
+                    android:id="@+id/blank"
+                    android:layout_marginLeft="30dp"
+                    android:textSize="30dp"
+                    android:width="25dp" />
+                <TextView
+                    android:text="9"
+                    android:layout_column="1"
+                    android:id="@+id/sen44"
+                    android:textSize="30dp"
+                    android:width="25dp" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/blank">
+                <TextView
+                    android:text="45. SANTIAGO, DIONISIO (IND) "
+                    android:layout_column="0"
+                    android:id="@+id/blank"
+                    android:textSize="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:width="25dp" />
+                <TextView
+                    android:text="9"
+                    android:layout_column="1"
+                    android:id="@+id/sen45"
+                    android:textSize="30dp"
+                    android:width="25dp" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/blank">
+                <TextView
+                    android:text="46. SOTTO, VICENTE (NPC) "
+                    android:layout_column="0"
+                    android:id="@+id/blank"
+                    android:layout_marginLeft="30dp"
+                    android:textSize="30dp"
+                    android:width="25dp" />
+                <TextView
+                    android:text="9"
+                    android:layout_column="1"
+                    android:id="@+id/sen46"
+                    android:textSize="30dp"
+                    android:width="25dp" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/blank">
+                <TextView
+                    android:text="47. TOLENTINO, FRANCIS (IND) "
+                    android:layout_column="0"
+                    android:id="@+id/blank"
+                    android:layout_marginLeft="30dp"
+                    android:textSize="30dp"
+                    android:width="25dp" />
+                <TextView
+                    android:text="9"
+                    android:layout_column="1"
+                    android:id="@+id/sen47"
+                    android:textSize="30dp"
+                    android:width="25dp" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/blank">
+                <TextView
+                    android:text="48. VALEROSO, DIOSDADO (IND) "
+                    android:layout_column="0"
+                    android:id="@+id/blank"
+                    android:layout_marginLeft="30dp"
+                    android:textSize="30dp"
+                    android:width="25dp" />
+                <TextView
+                    android:text="9"
+                    android:layout_column="1"
+                    android:id="@+id/sen48"
+                    android:textSize="30dp"
+                    android:width="25dp" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/blank">
+                <TextView
+                    android:text="49. VILLANUEVA, JOEL TESDAMAN (LP) "
+                    android:layout_column="0"
+                    android:id="@+id/blank"
+                    android:layout_marginLeft="30dp"
+                    android:textSize="30dp"
+                    android:width="25dp" />
+                <TextView
+                    android:text="9"
+                    android:layout_column="1"
+                    android:id="@+id/sen49"
+                    android:textSize="30dp"
+                    android:width="25dp" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/blank">
+                <TextView
+                    android:text="50. ZUBIRI, MIGZ (IND) "
+                    android:layout_column="0"
+                    android:id="@+id/blank"
+                    android:layout_marginLeft="30dp"
+                    android:textSize="30dp"
+                    android:width="25dp" />
+                <TextView
+                    android:text="9"
+                    android:layout_column="1"
+                    android:id="@+id/sen50"
+                    android:textSize="30dp"
+                    android:width="25dp" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/vcenter">
+                <TextView
+                    android:text=""
+                    android:layout_column="0"
+                    android:id="@+id/voting"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="15dp"
+                    android:textSize="30dp"
+                    android:layout_width="264.0dp" />
+                <TextView
+                    android:text=""
+                    android:layout_column="1"
+                    android:id="@+id/vcenter"
+                    android:layout_marginTop="15dp"
+                    android:textSize="30dp"
+                    android:width="30dp" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/button">
+                <Button
+                    android:text="Send to Cencas"
+                    android:layout_width="200dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/send"
+                    android:textSize="30dp"
+                    android:onClick="proceed"
+                    android:background="#228B22"
+                    android:clickable="true"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="180dp"
+                    android:layout_marginRight="50dp" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/vcenter">
+                <TextView
+                    android:text=""
+                    android:layout_column="0"
+                    android:id="@+id/voting"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="15dp"
+                    android:textSize="30dp"
+                    android:layout_width="264.0dp" />
+                <TextView
+                    android:text=""
+                    android:layout_column="1"
+                    android:id="@+id/vcenter"
+                    android:layout_marginTop="15dp"
+                    android:textSize="30dp"
+                    android:width="30dp" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/vcenter">
+                <TextView
+                    android:text=""
+                    android:layout_column="0"
+                    android:id="@+id/voting"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="15dp"
+                    android:textSize="30dp"
+                    android:layout_width="264.0dp" />
+                <TextView
+                    android:text=""
+                    android:layout_column="1"
+                    android:id="@+id/vcenter"
+                    android:layout_marginTop="15dp"
+                    android:textSize="30dp"
+                    android:width="30dp" />
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
 </LinearLayout>

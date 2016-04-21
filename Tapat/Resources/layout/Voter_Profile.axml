@@ -16,13 +16,13 @@
             android:layout_width="300dp"
             android:layout_height="100dp"
             android:id="@+id/img_tapat"
-            android:layout_marginTop="30dp"
+            android:layout_marginTop="20dp"
             android:layout_marginRight="30dp"
             android:layout_marginLeft="10dp" />
         <ImageView
             android:src="@android:drawable/ic_menu_gallery"
-            android:layout_width="300dp"
-            android:layout_height="300dp"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
             android:id="@+id/picture"
             android:layout_below="@+id/img_tapat"
             android:layout_gravity="center_horizontal"
@@ -181,7 +181,8 @@
                     android:layout_marginLeft="40dp"
                     android:layout_marginTop="15dp"
                     android:textSize="30dp"
-                    android:width="25dp" />
+                    android:width="25dp"
+                    android:layout_width="320dp" />
                 <TextView
                     android:text="2"
                     android:layout_column="1"
@@ -229,7 +230,7 @@
             <TableRow
                 android:id="@+id/regisrecord">
                 <TextView
-                    android:text="Voter's Registration Record:"
+                    android:text="Registration Record:"
                     android:layout_column="0"
                     android:id="@+id/reg_record"
                     android:layout_marginLeft="40dp"
@@ -247,7 +248,7 @@
             <TableRow
                 android:id="@+id/vidnum">
                 <TextView
-                    android:text="Voter's Identification Number:"
+                    android:text="ID Number:"
                     android:layout_column="0"
                     android:id="@+id/id_num"
                     android:layout_marginLeft="40dp"
@@ -258,7 +259,6 @@
                     android:text="9"
                     android:layout_column="1"
                     android:id="@+id/voteridnum"
-                    android:layout_marginLeft="40dp"
                     android:layout_marginTop="15dp"
                     android:textSize="30dp"
                     android:width="25dp" />
@@ -338,26 +338,65 @@
             <TableRow
                 android:id="@+id/buttons">
                 <Button
-                    android:text="Try Again     (Ulitin)"
+                    android:text="Try Again                     (Ulitin)"
                     android:layout_width="200dp"
                     android:layout_height="100dp"
                     android:id="@+id/try_again"
                     android:textSize="30dp"
                     android:onClick="again"
                     android:clickable="true"
+                    android:background="@android:color/holo_red_dark"
                     android:layout_marginTop="20dp"
-                    android:layout_marginLeft="50dp" />
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="20dp" />
                 <Button
-                    android:text="Proceed         (Ipagpatuloy)"
-                    android:layout_width="200dp"
+                    android:text="Proceed                     (Ipagpatuloy)"
+                    android:layout_width="230dp"
                     android:layout_height="100dp"
                     android:id="@+id/proceed_butt"
                     android:textSize="30dp"
                     android:onClick="proceed"
                     android:clickable="true"
+                    android:background="#228B22"
                     android:layout_marginTop="20dp"
-                    android:layout_marginLeft="142.0dp"
+                    android:layout_marginLeft="100dp"
                     android:layout_marginRight="50dp" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/vcenter">
+                <TextView
+                    android:text=" "
+                    android:layout_column="0"
+                    android:id="@+id/voting_center"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="15dp"
+                    android:textSize="30dp"
+                    android:layout_width="264.0dp" />
+                <TextView
+                    android:text=""
+                    android:layout_column="1"
+                    android:id="@+id/vcenterr"
+                    android:layout_marginTop="15dp"
+                    android:textSize="30dp"
+                    android:width="30dp" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/vcenter">
+                <TextView
+                    android:text=""
+                    android:layout_column="0"
+                    android:id="@+id/voting"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="15dp"
+                    android:textSize="30dp"
+                    android:layout_width="264.0dp" />
+                <TextView
+                    android:text=""
+                    android:layout_column="1"
+                    android:id="@+id/vcenter"
+                    android:layout_marginTop="15dp"
+                    android:textSize="30dp"
+                    android:width="30dp" />
             </TableRow>
         </TableLayout>
     </ScrollView>

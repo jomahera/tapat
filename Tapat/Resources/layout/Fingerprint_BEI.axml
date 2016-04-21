@@ -50,7 +50,8 @@
             android:layout_marginLeft="50dp"
             android:layout_marginTop="50dp"
             android:layout_below="@+id/fptext_eng"
-            android:gravity="center" />
+            android:gravity="center"
+            android:textColor="#FFFF0A" />
         <ImageButton
             android:src="@drawable/fingerprint"
             android:id="@+id/img_fp"

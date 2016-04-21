@@ -20,7 +20,7 @@ namespace Tapat
             base.OnCreate(savedInstanceState);
 
             // Create your application here
-            SetContentView(Resource.Layout.Verify_VVPAT);
+            SetContentView(Resource.Layout.Login);
 
         }
     }

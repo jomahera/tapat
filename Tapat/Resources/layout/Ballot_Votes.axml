@@ -16,7 +16,7 @@
             android:layout_width="300dp"
             android:layout_height="100dp"
             android:id="@+id/img_tapat"
-            android:layout_marginTop="30dp"
+            android:layout_marginTop="20dp"
             android:layout_marginRight="30dp"
             android:layout_marginLeft="10dp" />
         <TextView
@@ -34,13 +34,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/tagalog"
-            android:textSize="35dp"
-            android:text="Siguraduhin "
+            android:textSize="30dp"
+            android:text="(Siguraduhing tama ang mga nabasang boto ng makina.)"
             android:layout_centerHorizontal="true"
             android:textAlignment="center"
             android:layout_marginTop="30dp"
             android:layout_marginLeft="100dp"
-            android:layout_below="@+id/choose" />
+            android:layout_below="@+id/choose"
+            android:textColor="#FFFF0A" />
     </RelativeLayout>
     <ScrollView
         android:minWidth="25px"
@@ -443,26 +444,63 @@
             <TableRow
                 android:id="@+id/button">
                 <Button
-                    android:text="Recapture     (Ulitin)"
+                    android:text="Recapture                     (Ulitin)"
                     android:layout_width="200dp"
                     android:layout_height="100dp"
                     android:id="@+id/recapture_button"
                     android:textSize="30dp"
                     android:onClick="recaptur"
                     android:clickable="true"
-                    android:layout_marginTop="20dp"
-                    android:layout_marginLeft="50dp" />
+                    android:background="@android:color/holo_red_dark"
+                    android:layout_marginLeft="20dp" />
                 <Button
-                    android:text="Confirm                     (Tama)"
+                    android:text="Print VVPAT"
                     android:layout_width="200dp"
                     android:layout_height="100dp"
                     android:id="@+id/confirm_button"
                     android:textSize="30dp"
                     android:onClick="proceed"
                     android:clickable="true"
+                    android:background="#228B22"
                     android:layout_marginTop="20dp"
-                    android:layout_marginLeft="142.0dp"
-                    android:layout_marginRight="50dp" />
+                    android:layout_marginLeft="180dp"
+                    android:layout_marginRight="20dp" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/vcenter">
+                <TextView
+                    android:text=" "
+                    android:layout_column="0"
+                    android:id="@+id/voting_center"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="15dp"
+                    android:textSize="30dp"
+                    android:layout_width="264.0dp" />
+                <TextView
+                    android:text=""
+                    android:layout_column="1"
+                    android:id="@+id/vcenterr"
+                    android:layout_marginTop="15dp"
+                    android:textSize="30dp"
+                    android:width="30dp" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/vcenter">
+                <TextView
+                    android:text=""
+                    android:layout_column="0"
+                    android:id="@+id/voting"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="15dp"
+                    android:textSize="30dp"
+                    android:layout_width="264.0dp" />
+                <TextView
+                    android:text=""
+                    android:layout_column="1"
+                    android:id="@+id/vcenter"
+                    android:layout_marginTop="15dp"
+                    android:textSize="30dp"
+                    android:width="30dp" />
             </TableRow>
         </TableLayout>
     </ScrollView>

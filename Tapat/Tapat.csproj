@@ -93,12 +93,13 @@
     <Compile Include="Login.cs" />
     <Compile Include="Logout.cs" />
     <Compile Include="MainMenu.cs" />
+    <Compile Include="MainMenu2.cs" />
+    <Compile Include="MainMenu3.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Scrolling.cs" />
     <Compile Include="Sent_To_Cencas.cs" />
     <Compile Include="Tally_Votes.cs" />
-    <Compile Include="User_Votes.cs" />
     <Compile Include="Verify_VVPAT.cs" />
     <Compile Include="Voter_Profile.cs" />
     <Compile Include="VVPAT_IDEntries.cs" />
@@ -126,10 +127,6 @@
     <AndroidResource Include="Resources\layout\Voter_Profile.axml">
       <SubType>AndroidResource</SubType>
     </AndroidResource>
-    <AndroidResource Include="Resources\layout\PleaseWait.axml">
-      <SubType>AndroidResource</SubType>
-    </AndroidResource>
-    <AndroidResource Include="Resources\layout\Sample_Profile.axml" />
     <AndroidResource Include="Resources\layout\Scrolling.axml" />
     <AndroidResource Include="Resources\layout\Sent_To_Cencas.axml" />
     <AndroidResource Include="Resources\layout\Tally_Votes.axml" />
@@ -138,9 +135,6 @@
       <SubType>AndroidResource</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\layout\VVPAT_IDEntries.axml">
-      <SubType>AndroidResource</SubType>
-    </AndroidResource>
-    <AndroidResource Include="Resources\layout\User_Votes.axml">
       <SubType>AndroidResource</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\layout\Logout.axml">
@@ -153,6 +147,12 @@
       <SubType>AndroidResource</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\layout\VVPAT_Check.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\MainMenu2.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\MainMenu3.axml">
       <SubType>AndroidResource</SubType>
     </AndroidResource>
   </ItemGroup>

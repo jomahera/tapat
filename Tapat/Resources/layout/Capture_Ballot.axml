@@ -47,7 +47,8 @@
         android:id="@+id/textView3"
         android:textSize="40dp"
         android:layout_marginTop="20dp"
-        android:gravity="center" />
+        android:gravity="center"
+        android:textColor="#FFFF0A" />
     <TextView
         android:text="After inserting the ballot, click Capture Ballot button."
         android:layout_width="600dp"
@@ -66,7 +67,8 @@
         android:textSize="40dp"
         android:layout_gravity="center_horizontal"
         android:gravity="center"
-        android:layout_marginTop="20dp" />
+        android:layout_marginTop="20dp"
+        android:textColor="#FFFF0A" />
     <Button
         android:text="Capture Ballot"
         android:id="@+id/capture_button"
