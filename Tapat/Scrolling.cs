@@ -12,21 +12,16 @@ using Android.Widget;
 
 namespace Tapat
 {
-    [Activity(Label = "Fingerprint_Voter")]
-    public class Fingerprint_Voter : Activity
+    [Activity(Label = "Scrolling")]
+    public class Scrolling : Activity
     {
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
 
             // Create your application here
-            SetContentView(Resource.Layout.Fingerprint_Voter);
+            SetContentView(Resource.Layout.Scrolling);
 
-            ImageButton fp = FindViewById<ImageButton>(Resource.Id.img_fp);
-
-            fp.Click += delegate {
-                StartActivity(typeof(Tapat.Voter_Profile));
-            };
         }
     }
 }

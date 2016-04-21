@@ -13,14 +13,12 @@
         android:id="@+id/relativeLayout1">
         <ImageView
             android:src="@drawable/logow"
-            android:layout_width="500dp"
-            android:layout_height="143.0dp"
-            android:layout_below="@+id/img_rop_coa"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
             android:id="@+id/img_tapat"
-            android:layout_marginTop="30dp"
-            android:layout_alignParentLeft="true"
-            android:layout_marginLeft="30dp"
-            android:layout_marginRight="30dp" />
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="10dp" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -29,7 +27,7 @@
             android:text="Choose an option:"
             android:layout_centerHorizontal="true"
             android:textAlignment="center"
-            android:layout_marginTop="100dp"
+            android:layout_marginTop="130dp"
             android:layout_below="@+id/img_tapat" />
         <Button
             android:text="Open Poll"
@@ -80,11 +78,11 @@
             android:layout_width="400dp"
             android:layout_height="100dp"
             android:layout_below="@+id/tally"
-            android:id="@+id/logout"
+            android:id="@+id/logout_butt"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="20dp"
             android:textSize="30dp"
-            android:onClick="logout"
+            android:onClick="logout_butt"
             android:clickable="true" />
     </RelativeLayout>
 </LinearLayout>

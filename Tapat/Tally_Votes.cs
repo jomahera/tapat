@@ -12,20 +12,21 @@ using Android.Widget;
 
 namespace Tapat
 {
-    [Activity(Label = "Fingerprint_Voter")]
-    public class Fingerprint_Voter : Activity
+    [Activity(Label = "Tally_Votes")]
+    public class Tally_Votes : Activity
     {
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
 
             // Create your application here
-            SetContentView(Resource.Layout.Fingerprint_Voter);
+            SetContentView(Resource.Layout.Tally_Votes);
 
-            ImageButton fp = FindViewById<ImageButton>(Resource.Id.img_fp);
+            Button sendtocencas = FindViewById<Button>(Resource.Id.send);
 
-            fp.Click += delegate {
-                StartActivity(typeof(Tapat.Voter_Profile));
+
+            sendtocencas.Click += delegate {
+                StartActivity(typeof(Tapat.Sent_To_Cencas));
             };
         }
     }

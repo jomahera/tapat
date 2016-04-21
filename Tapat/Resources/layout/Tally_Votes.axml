@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <RelativeLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/relative_main">
+        <ImageView
+            android:src="@drawable/logow"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:id="@+id/img_tapat"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="10dp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/relativeLayout1" />
+    <TextView
+        android:text="President:"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="169.0dp"
+        android:layout_height="47.0dp"
+        android:id="@+id/textView1"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:textSize="25dp" />
+    <TextView
+        android:text="Vice-President:"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:id="@+id/textView2"
+        android:textSize="25dp"
+        android:layout_marginLeft="20dp" />
+    <TextView
+        android:text="Senators:"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/textView4"
+        android:textSize="25dp"
+        android:layout_marginLeft="20dp" />
+    <TextView
+        android:text="Party List Group: "
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/textView3"
+        android:textSize="25dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="270.0dp" />
+    <TextView
+        android:text="House of Representatives:"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:textSize="25dp"
+        android:id="@+id/textView8" />
+    <TextView
+        android:text="Provincial Governor:"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4"
+        android:textSize="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp" />
+    <TextView
+        android:text="Provincial Vice-Governor:"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4"
+        android:layout_marginTop="10dp"
+        android:textSize="25dp"
+        android:layout_marginLeft="20dp" />
+    <TextView
+        android:text="Mayor:"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="155.0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4"
+        android:textSize="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp" />
+    <TextView
+        android:text="Vice-Mayor:"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4"
+        android:layout_marginTop="10dp"
+        android:textSize="25dp"
+        android:layout_marginLeft="20dp" />
+    <TextView
+        android:text="Member, Sangguniang Panlalawigan:"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4"
+        android:textSize="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp" />
+    <TextView
+        android:text="Member, Sangguniang Panglungsod:"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4"
+        android:textSize="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp" />
+    <Button
+        android:text="Send to Cencas"
+        android:layout_width="450dp"
+        android:layout_height="100dp"
+        android:textSize="30dp"
+        android:layout_marginTop="80dp"
+        android:id="@+id/send"
+        android:gravity="center"
+        android:layout_gravity="center" />
+</LinearLayout>

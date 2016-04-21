@@ -13,14 +13,12 @@
         android:id="@+id/relative_main">
         <ImageView
             android:src="@drawable/logow"
-            android:layout_width="500dp"
-            android:layout_height="143.0dp"
-            android:layout_below="@+id/img_rop_coa"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
             android:id="@+id/img_tapat"
-            android:layout_marginTop="30dp"
-            android:layout_alignParentLeft="true"
-            android:layout_marginLeft="30dp"
-            android:layout_marginRight="30dp" />
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="10dp" />
     </RelativeLayout>
     <RelativeLayout
         android:minWidth="25px"
@@ -32,7 +30,7 @@
         <TextView
             android:id="@+id/fptext_eng"
             android:textSize="50dp"
-            android:text="Kindly insert the ballot inside the jig"
+            android:text="Kindly insert the ballot inside the machine."
             android:textAlignment="center"
             android:layout_width="587.0dp"
             android:layout_height="wrap_content"
@@ -43,7 +41,7 @@
             android:gravity="center" />
     </RelativeLayout>
     <TextView
-        android:text="(Ipasok ang balota sa loob ng jig.)"
+        android:text="(Ipasok ang balota sa loob ng makina.)"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/textView3"
@@ -71,12 +69,13 @@
         android:layout_marginTop="20dp" />
     <Button
         android:text="Capture Ballot"
-        android:id="@+id/button1"
+        android:id="@+id/captureballot_butt"
         android:layout_width="500dp"
         android:layout_height="100dp"
         android:layout_marginTop="100dp"
         android:textSize="40dp"
         android:gravity="center"
         android:layout_gravity="center"
-        android:onClick="capture" />
+        android:onClick="capture"
+        android:background="#228B22" />
 </LinearLayout>

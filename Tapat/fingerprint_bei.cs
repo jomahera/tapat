@@ -24,7 +24,9 @@ namespace Tapat
 
             ImageButton fp = FindViewById<ImageButton>(Resource.Id.img_fp);
 
-            fp.Click += delegate { StartActivity(typeof(Tapat.MainMenu)); };
+            fp.Click += delegate {
+                StartActivity(typeof(Tapat.MainMenu));
+            };
         }
     }
 }
