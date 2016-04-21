@@ -22,12 +22,12 @@ namespace Tapat
             // Create your application here
             SetContentView(Resource.Layout.User_Votes);
 
-            Button printballot= FindViewById<Button>(Resource.Id.print_ballot);
+            Button confirm= FindViewById<Button>(Resource.Id.confirm_button);
             Button recapture = FindViewById<Button>(Resource.Id.recapture_button);
 
-            printballot.Click += delegate
+            confirm.Click += delegate
                 {
-                    StartActivity(typeof(Tapat.Verify_VVPAT));
+                    StartActivity(typeof(Tapat.MainMenu));
                 };
 
             recapture.Click += delegate {

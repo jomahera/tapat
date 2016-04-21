@@ -432,17 +432,17 @@
             <TableRow
                 android:id="@+id/button">
                 <Button
+                    android:text="Capture Ballot"
                     android:layout_span="2"
-                    android:text="Confirm                      (Tama)"
-                    android:layout_width="200dp"
+                    android:id="@+id/confirm_button"
+                    android:layout_width="500dp"
                     android:layout_height="100dp"
-                    android:id="@+id/confirm_VVPAT"
-                    android:textSize="30dp"
+                    android:layout_marginTop="100dp"
+                    android:textSize="40dp"
+                    android:gravity="center"
+                    android:layout_gravity="center"
                     android:onClick="proceed"
-                    android:clickable="true"
-                    android:layout_marginTop="20dp"
-                    android:layout_marginLeft="200dp"
-                    android:layout_marginRight="200dp" />
+                    android:background="#228B22" />
             </TableRow>
         </TableLayout>
     </ScrollView>

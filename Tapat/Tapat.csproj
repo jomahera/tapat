@@ -84,6 +84,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Ballot_Votes.cs" />
     <Compile Include="Capture_Ballot.cs" />
     <Compile Include="Cast_Vote.cs" />
     <Compile Include="Close_Poll.cs" />
@@ -146,6 +147,12 @@
       <SubType>AndroidResource</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\layout\Close_Poll.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\Ballot_Votes.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\EXAMPLE.axml">
       <SubType>AndroidResource</SubType>
     </AndroidResource>
   </ItemGroup>

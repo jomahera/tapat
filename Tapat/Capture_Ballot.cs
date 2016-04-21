@@ -23,11 +23,13 @@ namespace Tapat
             // Create your application here
             SetContentView(Resource.Layout.Capture_Ballot);
 
-            Button captureballot = FindViewById<Button>(Resource.Id.captureballot_butt);
+            Button capture = FindViewById<Button>(Resource.Id.capture_button);
 
 
-            captureballot.Click += delegate {
-                StartActivity(typeof(Tapat.User_Votes));
+
+
+            capture.Click += delegate {
+                StartActivity(typeof(Tapat.Ballot_Votes));
             };
         }
 

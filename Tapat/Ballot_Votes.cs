@@ -12,23 +12,26 @@ using Android.Widget;
 
 namespace Tapat
 {
-    [Activity(Label = "Verify_VVPAT")]
-    public class Verify_VVPAT : Activity
+    [Activity(Label = "Ballot_Votes")]
+    public class Ballot_Votes : Activity
     {
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
 
             // Create your application here
-            SetContentView(Resource.Layout.Verify_VVPAT);
+            SetContentView(Resource.Layout.Ballot_Votes);
 
-  
+            Button recap = FindViewById<Button>(Resource.Id.recapture_button);
             Button confirm = FindViewById<Button>(Resource.Id.confirm_button);
 
+            recap.Click += delegate {
+                StartActivity(typeof(Tapat.Capture_Ballot));
+            };
 
 
             confirm.Click += delegate {
-                StartActivity(typeof(Tapat.Cast_Vote));
+                StartActivity(typeof(Tapat.Verify_VVPAT));
             };
         }
     }

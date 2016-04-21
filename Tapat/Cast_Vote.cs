@@ -22,14 +22,14 @@ namespace Tapat
             // Create your application here
             SetContentView(Resource.Layout.Cast_Vote);
 
-            Button voterlogin = FindViewById<Button>(Resource.Id.voter_login);
-            Button closepoll = FindViewById<Button>(Resource.Id.closepoll);
+            Button voterlogin = FindViewById<Button>(Resource.Id.v_login);
+            Button menu = FindViewById<Button>(Resource.Id.mainmenu);
 
 
             voterlogin.Click += delegate {
                 StartActivity(typeof(Tapat.Fingerprint_Voter));
             };
-            closepoll.Click += delegate {
+            menu.Click += delegate {
                 StartActivity(typeof(Tapat. Close_Poll));
             };
         }
