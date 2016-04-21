@@ -84,12 +84,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Capture_Ballot.cs" />
+    <Compile Include="Cast_Vote.cs" />
+    <Compile Include="Close_Poll.cs" />
     <Compile Include="Fingerprint_BEI.cs" />
     <Compile Include="Fingerprint_Voter.cs" />
     <Compile Include="Login.cs" />
+    <Compile Include="Logout.cs" />
     <Compile Include="MainMenu.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Scrolling.cs" />
+    <Compile Include="Sent_To_Cencas.cs" />
+    <Compile Include="Tally_Votes.cs" />
+    <Compile Include="User_Votes.cs" />
+    <Compile Include="Verify_VVPAT.cs" />
+    <Compile Include="Voter_Profile.cs" />
+    <Compile Include="VVPAT_IDEntries.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
@@ -114,19 +125,27 @@
     <AndroidResource Include="Resources\layout\Voter_Profile.axml">
       <SubType>AndroidResource</SubType>
     </AndroidResource>
-    <AndroidResource Include="Resources\layout\CapturingBallot.axml">
-      <SubType>AndroidResource</SubType>
-    </AndroidResource>
     <AndroidResource Include="Resources\layout\PleaseWait.axml">
       <SubType>AndroidResource</SubType>
     </AndroidResource>
-    <AndroidResource Include="Resources\layout\Vote_Result.axml">
+    <AndroidResource Include="Resources\layout\Sample_Profile.axml" />
+    <AndroidResource Include="Resources\layout\Scrolling.axml" />
+    <AndroidResource Include="Resources\layout\Sent_To_Cencas.axml" />
+    <AndroidResource Include="Resources\layout\Tally_Votes.axml" />
+    <AndroidResource Include="Resources\layout\Verify_VVPAT.axml" />
+    <AndroidResource Include="Resources\layout\Cast_Vote.axml">
       <SubType>AndroidResource</SubType>
     </AndroidResource>
-    <AndroidResource Include="Resources\layout\ThanksForVoting.axml">
+    <AndroidResource Include="Resources\layout\VVPAT_IDEntries.axml">
       <SubType>AndroidResource</SubType>
     </AndroidResource>
-    <AndroidResource Include="Resources\layout\Captured_Result.axml">
+    <AndroidResource Include="Resources\layout\User_Votes.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\Logout.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\Close_Poll.axml">
       <SubType>AndroidResource</SubType>
     </AndroidResource>
   </ItemGroup>
@@ -156,9 +175,6 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\fingerprint.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\opaque.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <Import Project="..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets" Condition="Exists('..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets')" />
