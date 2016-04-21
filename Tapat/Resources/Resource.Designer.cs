@@ -76,17 +76,17 @@ namespace Tapat
 		public partial class Id
 		{
 			
+			// aapt resource value: 0x7f050049
+			public const int Maghintay = 2131034185;
+			
 			// aapt resource value: 0x7f050048
-			public const int Maghintay = 2131034184;
+			public const int PleaseWait = 2131034184;
 			
-			// aapt resource value: 0x7f050047
-			public const int PleaseWait = 2131034183;
+			// aapt resource value: 0x7f050005
+			public const int President = 2131034117;
 			
-			// aapt resource value: 0x7f050004
-			public const int President = 2131034116;
-			
-			// aapt resource value: 0x7f050007
-			public const int VP = 2131034119;
+			// aapt resource value: 0x7f050008
+			public const int VP = 2131034120;
 			
 			// aapt resource value: 0x7f05005e
 			public const int b_date = 2131034206;
@@ -112,20 +112,20 @@ namespace Tapat
 			// aapt resource value: 0x7f05005d
 			public const int birthdatee = 2131034205;
 			
-			// aapt resource value: 0x7f05000d
-			public const int blank = 2131034125;
+			// aapt resource value: 0x7f05000e
+			public const int blank = 2131034126;
 			
 			// aapt resource value: 0x7f05007e
 			public const int brgy = 2131034238;
 			
-			// aapt resource value: 0x7f05002d
-			public const int button = 2131034157;
+			// aapt resource value: 0x7f05002e
+			public const int button = 2131034158;
 			
 			// aapt resource value: 0x7f05004a
 			public const int buttons = 2131034186;
 			
-			// aapt resource value: 0x7f050035
-			public const int capture_button = 2131034165;
+			// aapt resource value: 0x7f050036
+			public const int capture_button = 2131034166;
 			
 			// aapt resource value: 0x7f050002
 			public const int choose = 2131034114;
@@ -142,14 +142,14 @@ namespace Tapat
 			// aapt resource value: 0x7f050064
 			public const int civil_status = 2131034212;
 			
-			// aapt resource value: 0x7f050043
-			public const int close_poll = 2131034179;
+			// aapt resource value: 0x7f050044
+			public const int close_poll = 2131034180;
 			
 			// aapt resource value: 0x7f05004e
 			public const int confirm_VVPAT = 2131034190;
 			
-			// aapt resource value: 0x7f05002f
-			public const int confirm_button = 2131034159;
+			// aapt resource value: 0x7f050030
+			public const int confirm_button = 2131034160;
 			
 			// aapt resource value: 0x7f050065
 			public const int cstatus = 2131034213;
@@ -169,23 +169,23 @@ namespace Tapat
 			// aapt resource value: 0x7f050056
 			public const int fname = 2131034198;
 			
-			// aapt resource value: 0x7f050031
-			public const int fptext_eng = 2131034161;
+			// aapt resource value: 0x7f050032
+			public const int fptext_eng = 2131034162;
 			
-			// aapt resource value: 0x7f050036
-			public const int fptext_tag = 2131034166;
+			// aapt resource value: 0x7f050037
+			public const int fptext_tag = 2131034167;
 			
 			// aapt resource value: 0x7f050060
 			public const int gender = 2131034208;
 			
-			// aapt resource value: 0x7f05001d
-			public const int houserep = 2131034141;
-			
 			// aapt resource value: 0x7f05001e
-			public const int houserep1 = 2131034142;
+			public const int houserep = 2131034142;
 			
-			// aapt resource value: 0x7f05001c
-			public const int houserepre = 2131034140;
+			// aapt resource value: 0x7f05001f
+			public const int houserep1 = 2131034143;
+			
+			// aapt resource value: 0x7f05001d
+			public const int houserepre = 2131034141;
 			
 			// aapt resource value: 0x7f050082
 			public const int id1 = 2131034242;
@@ -217,11 +217,11 @@ namespace Tapat
 			// aapt resource value: 0x7f050074
 			public const int id_num = 2131034228;
 			
-			// aapt resource value: 0x7f05003a
-			public const int img_fp = 2131034170;
-			
 			// aapt resource value: 0x7f05003b
-			public const int img_rop_coa = 2131034171;
+			public const int img_fp = 2131034171;
+			
+			// aapt resource value: 0x7f05003c
+			public const int img_rop_coa = 2131034172;
 			
 			// aapt resource value: 0x7f050001
 			public const int img_tapat = 2131034113;
@@ -238,53 +238,53 @@ namespace Tapat
 			// aapt resource value: 0x7f050059
 			public const int lname = 2131034201;
 			
+			// aapt resource value: 0x7f050042
+			public const int login = 2131034178;
+			
 			// aapt resource value: 0x7f050041
-			public const int login = 2131034177;
+			public const int login_button = 2131034177;
 			
-			// aapt resource value: 0x7f050040
-			public const int login_button = 2131034176;
-			
-			// aapt resource value: 0x7f050046
-			public const int logout_butt = 2131034182;
-			
-			// aapt resource value: 0x7f050026
-			public const int lungsod = 2131034150;
+			// aapt resource value: 0x7f050047
+			public const int logout_butt = 2131034183;
 			
 			// aapt resource value: 0x7f050027
-			public const int lungsod1 = 2131034151;
+			public const int lungsod = 2131034151;
 			
 			// aapt resource value: 0x7f050028
-			public const int lungsod2 = 2131034152;
+			public const int lungsod1 = 2131034152;
 			
 			// aapt resource value: 0x7f050029
-			public const int lungsod3 = 2131034153;
+			public const int lungsod2 = 2131034153;
 			
 			// aapt resource value: 0x7f05002a
-			public const int lungsod4 = 2131034154;
+			public const int lungsod3 = 2131034154;
 			
 			// aapt resource value: 0x7f05002b
-			public const int lungsod5 = 2131034155;
+			public const int lungsod4 = 2131034155;
 			
 			// aapt resource value: 0x7f05002c
-			public const int lungsod6 = 2131034156;
+			public const int lungsod5 = 2131034156;
+			
+			// aapt resource value: 0x7f05002d
+			public const int lungsod6 = 2131034157;
+			
+			// aapt resource value: 0x7f05003a
+			public const int main = 2131034170;
 			
 			// aapt resource value: 0x7f050039
-			public const int main = 2131034169;
+			public const int mainmenu = 2131034169;
 			
-			// aapt resource value: 0x7f050038
-			public const int mainmenu = 2131034168;
-			
-			// aapt resource value: 0x7f050044
-			public const int man_count = 2131034180;
-			
-			// aapt resource value: 0x7f050020
-			public const int mayor = 2131034144;
+			// aapt resource value: 0x7f050045
+			public const int man_count = 2131034181;
 			
 			// aapt resource value: 0x7f050021
-			public const int mayor1 = 2131034145;
+			public const int mayor = 2131034145;
 			
-			// aapt resource value: 0x7f05001f
-			public const int mayorr = 2131034143;
+			// aapt resource value: 0x7f050022
+			public const int mayor1 = 2131034146;
+			
+			// aapt resource value: 0x7f050020
+			public const int mayorr = 2131034144;
 			
 			// aapt resource value: 0x7f05005b
 			public const int middle_name = 2131034203;
@@ -295,32 +295,32 @@ namespace Tapat
 			// aapt resource value: 0x7f05005c
 			public const int midname = 2131034204;
 			
-			// aapt resource value: 0x7f050042
-			public const int open_poll = 2131034178;
+			// aapt resource value: 0x7f050043
+			public const int open_poll = 2131034179;
 			
-			// aapt resource value: 0x7f050025
-			public const int panglungsod = 2131034149;
-			
-			// aapt resource value: 0x7f05001a
-			public const int party = 2131034138;
+			// aapt resource value: 0x7f050026
+			public const int panglungsod = 2131034150;
 			
 			// aapt resource value: 0x7f05001b
-			public const int party1 = 2131034139;
+			public const int party = 2131034139;
 			
-			// aapt resource value: 0x7f050019
-			public const int partylist = 2131034137;
+			// aapt resource value: 0x7f05001c
+			public const int party1 = 2131034140;
 			
-			// aapt resource value: 0x7f05003f
-			public const int password = 2131034175;
+			// aapt resource value: 0x7f05001a
+			public const int partylist = 2131034138;
+			
+			// aapt resource value: 0x7f050040
+			public const int password = 2131034176;
 			
 			// aapt resource value: 0x7f050051
 			public const int picture = 2131034193;
 			
-			// aapt resource value: 0x7f050005
-			public const int pres = 2131034117;
-			
 			// aapt resource value: 0x7f050006
-			public const int pres1 = 2131034118;
+			public const int pres = 2131034118;
+			
+			// aapt resource value: 0x7f050007
+			public const int pres1 = 2131034119;
 			
 			// aapt resource value: 0x7f05004b
 			public const int print_ballot = 2131034187;
@@ -337,8 +337,8 @@ namespace Tapat
 			// aapt resource value: 0x7f050077
 			public const int provincee = 2131034231;
 			
-			// aapt resource value: 0x7f05002e
-			public const int recapture_button = 2131034158;
+			// aapt resource value: 0x7f05002f
+			public const int recapture_button = 2131034159;
 			
 			// aapt resource value: 0x7f050067
 			public const int reg = 2131034215;
@@ -367,56 +367,56 @@ namespace Tapat
 			// aapt resource value: 0x7f05006d
 			public const int regstatus = 2131034221;
 			
-			// aapt resource value: 0x7f050030
-			public const int relativeLayout1 = 2131034160;
+			// aapt resource value: 0x7f050031
+			public const int relativeLayout1 = 2131034161;
 			
 			// aapt resource value: 0x7f050000
 			public const int relative_main = 2131034112;
 			
-			// aapt resource value: 0x7f050003
-			public const int scrollView1 = 2131034115;
+			// aapt resource value: 0x7f050004
+			public const int scrollView1 = 2131034116;
 			
-			// aapt resource value: 0x7f05000c
-			public const int sen1 = 2131034124;
-			
-			// aapt resource value: 0x7f050016
-			public const int sen10 = 2131034134;
+			// aapt resource value: 0x7f05000d
+			public const int sen1 = 2131034125;
 			
 			// aapt resource value: 0x7f050017
-			public const int sen11 = 2131034135;
+			public const int sen10 = 2131034135;
 			
 			// aapt resource value: 0x7f050018
-			public const int sen12 = 2131034136;
+			public const int sen11 = 2131034136;
 			
-			// aapt resource value: 0x7f05000e
-			public const int sen2 = 2131034126;
+			// aapt resource value: 0x7f050019
+			public const int sen12 = 2131034137;
 			
 			// aapt resource value: 0x7f05000f
-			public const int sen3 = 2131034127;
+			public const int sen2 = 2131034127;
 			
 			// aapt resource value: 0x7f050010
-			public const int sen4 = 2131034128;
+			public const int sen3 = 2131034128;
 			
 			// aapt resource value: 0x7f050011
-			public const int sen5 = 2131034129;
+			public const int sen4 = 2131034129;
 			
 			// aapt resource value: 0x7f050012
-			public const int sen6 = 2131034130;
+			public const int sen5 = 2131034130;
 			
 			// aapt resource value: 0x7f050013
-			public const int sen7 = 2131034131;
+			public const int sen6 = 2131034131;
 			
 			// aapt resource value: 0x7f050014
-			public const int sen8 = 2131034132;
+			public const int sen7 = 2131034132;
 			
 			// aapt resource value: 0x7f050015
-			public const int sen9 = 2131034133;
+			public const int sen8 = 2131034133;
+			
+			// aapt resource value: 0x7f050016
+			public const int sen9 = 2131034134;
+			
+			// aapt resource value: 0x7f05000c
+			public const int senator = 2131034124;
 			
 			// aapt resource value: 0x7f05000b
-			public const int senator = 2131034123;
-			
-			// aapt resource value: 0x7f05000a
-			public const int senators = 2131034122;
+			public const int senators = 2131034123;
 			
 			// aapt resource value: 0x7f05004f
 			public const int send = 2131034191;
@@ -427,20 +427,20 @@ namespace Tapat
 			// aapt resource value: 0x7f050062
 			public const int sexx = 2131034210;
 			
-			// aapt resource value: 0x7f050049
-			public const int tagalog = 2131034185;
+			// aapt resource value: 0x7f050003
+			public const int tagalog = 2131034115;
 			
-			// aapt resource value: 0x7f050045
-			public const int tally = 2131034181;
-			
-			// aapt resource value: 0x7f050033
-			public const int textView1 = 2131034163;
+			// aapt resource value: 0x7f050046
+			public const int tally = 2131034182;
 			
 			// aapt resource value: 0x7f050034
-			public const int textView2 = 2131034164;
+			public const int textView1 = 2131034164;
 			
-			// aapt resource value: 0x7f050032
-			public const int textView3 = 2131034162;
+			// aapt resource value: 0x7f050035
+			public const int textView2 = 2131034165;
+			
+			// aapt resource value: 0x7f050033
+			public const int textView3 = 2131034163;
 			
 			// aapt resource value: 0x7f05004c
 			public const int textView4 = 2131034188;
@@ -448,32 +448,32 @@ namespace Tapat
 			// aapt resource value: 0x7f05004d
 			public const int textView8 = 2131034189;
 			
-			// aapt resource value: 0x7f05003e
-			public const int text_pass = 2131034174;
+			// aapt resource value: 0x7f05003f
+			public const int text_pass = 2131034175;
 			
-			// aapt resource value: 0x7f05003c
-			public const int text_user = 2131034172;
+			// aapt resource value: 0x7f05003d
+			public const int text_user = 2131034173;
 			
 			// aapt resource value: 0x7f050050
 			public const int try_again = 2131034192;
 			
-			// aapt resource value: 0x7f05003d
-			public const int user_id = 2131034173;
+			// aapt resource value: 0x7f05003e
+			public const int user_id = 2131034174;
 			
-			// aapt resource value: 0x7f050037
-			public const int v_login = 2131034167;
+			// aapt resource value: 0x7f050038
+			public const int v_login = 2131034168;
 			
 			// aapt resource value: 0x7f05007f
 			public const int vcenter = 2131034239;
 			
-			// aapt resource value: 0x7f050023
-			public const int vice = 2131034147;
-			
 			// aapt resource value: 0x7f050024
-			public const int vice1 = 2131034148;
+			public const int vice = 2131034148;
 			
-			// aapt resource value: 0x7f050022
-			public const int vicemayor = 2131034146;
+			// aapt resource value: 0x7f050025
+			public const int vice1 = 2131034149;
+			
+			// aapt resource value: 0x7f050023
+			public const int vicemayor = 2131034147;
 			
 			// aapt resource value: 0x7f050073
 			public const int vidnum = 2131034227;
@@ -487,11 +487,11 @@ namespace Tapat
 			// aapt resource value: 0x7f050080
 			public const int voting_center = 2131034240;
 			
-			// aapt resource value: 0x7f050009
-			public const int vp1 = 2131034121;
+			// aapt resource value: 0x7f05000a
+			public const int vp1 = 2131034122;
 			
-			// aapt resource value: 0x7f050008
-			public const int vpres = 2131034120;
+			// aapt resource value: 0x7f050009
+			public const int vpres = 2131034121;
 			
 			static Id()
 			{
@@ -558,7 +558,10 @@ namespace Tapat
 			public const int Voter_Profile = 2130903056;
 			
 			// aapt resource value: 0x7f030011
-			public const int VVPAT_IDEntries = 2130903057;
+			public const int VVPAT_Check = 2130903057;
+			
+			// aapt resource value: 0x7f030012
+			public const int VVPAT_IDEntries = 2130903058;
 			
 			static Layout()
 			{
