@@ -519,49 +519,46 @@ namespace Tapat
 			public const int Close_Poll = 2130903043;
 			
 			// aapt resource value: 0x7f030004
-			public const int EXAMPLE = 2130903044;
+			public const int Fingerprint_BEI = 2130903044;
 			
 			// aapt resource value: 0x7f030005
-			public const int Fingerprint_BEI = 2130903045;
+			public const int Fingerprint_Voter = 2130903045;
 			
 			// aapt resource value: 0x7f030006
-			public const int Fingerprint_Voter = 2130903046;
+			public const int Login = 2130903046;
 			
 			// aapt resource value: 0x7f030007
-			public const int Login = 2130903047;
+			public const int Logout = 2130903047;
 			
 			// aapt resource value: 0x7f030008
-			public const int Logout = 2130903048;
+			public const int MainMenu = 2130903048;
 			
 			// aapt resource value: 0x7f030009
-			public const int MainMenu = 2130903049;
+			public const int PleaseWait = 2130903049;
 			
 			// aapt resource value: 0x7f03000a
-			public const int PleaseWait = 2130903050;
+			public const int Sample_Profile = 2130903050;
 			
 			// aapt resource value: 0x7f03000b
-			public const int Sample_Profile = 2130903051;
+			public const int Scrolling = 2130903051;
 			
 			// aapt resource value: 0x7f03000c
-			public const int Scrolling = 2130903052;
+			public const int Sent_To_Cencas = 2130903052;
 			
 			// aapt resource value: 0x7f03000d
-			public const int Sent_To_Cencas = 2130903053;
+			public const int Tally_Votes = 2130903053;
 			
 			// aapt resource value: 0x7f03000e
-			public const int Tally_Votes = 2130903054;
+			public const int User_Votes = 2130903054;
 			
 			// aapt resource value: 0x7f03000f
-			public const int User_Votes = 2130903055;
+			public const int Verify_VVPAT = 2130903055;
 			
 			// aapt resource value: 0x7f030010
-			public const int Verify_VVPAT = 2130903056;
+			public const int Voter_Profile = 2130903056;
 			
 			// aapt resource value: 0x7f030011
-			public const int Voter_Profile = 2130903057;
-			
-			// aapt resource value: 0x7f030012
-			public const int VVPAT_IDEntries = 2130903058;
+			public const int VVPAT_IDEntries = 2130903057;
 			
 			static Layout()
 			{
