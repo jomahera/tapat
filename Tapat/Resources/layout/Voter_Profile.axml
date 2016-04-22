@@ -62,9 +62,7 @@
                     android:layout_marginLeft="40dp"
                     android:layout_width="102.5dp" />
                 <TextView
-                    android:text="1"
-                    android:layout_column="1"
-                    android:id="@+id/fname"
+                    android:id="@+id/given_name"
                     android:textSize="30dp"
                     android:layout_marginTop="15dp"
                     android:width="25dp" />
@@ -74,14 +72,12 @@
                 <TextView
                     android:text="Last Name:"
                     android:layout_column="0"
-                    android:id="@+id/last_name"
+                    android:id="@+id/lastname"
                     android:textSize="30dp"
                     android:layout_marginTop="15dp"
                     android:layout_marginLeft="40dp" />
                 <TextView
-                    android:text="1"
-                    android:layout_column="1"
-                    android:id="@+id/lname"
+                    android:id="@+id/last_name"
                     a=""
                     android:textSize="30dp"
                     android:layout_marginTop="15dp"
@@ -92,15 +88,14 @@
                 <TextView
                     android:text="Middle Name:"
                     android:layout_column="0"
-                    android:id="@+id/middle_name"
+                    android:id="@+id/mid_name"
                     android:textSize="30dp"
                     android:layout_marginLeft="40dp"
                     android:layout_marginTop="15dp"
                     android:width="25dp" />
                 <TextView
-                    android:text="2"
-                    android:layout_column="1"
-                    android:id="@+id/midname"
+                    android:text=""
+                    android:id="@+id/middle_name"
                     android:textSize="30dp"
                     android:layout_marginTop="15dp"
                     android:width="25dp" />
@@ -116,9 +111,8 @@
                     android:layout_marginTop="15dp"
                     android:width="25dp" />
                 <TextView
-                    android:text="3"
-                    android:layout_column="1"
-                    android:id="@+id/bdate"
+                    android:text=""
+                    android:id="@+id/bday"
                     android:textSize="30dp"
                     android:layout_marginTop="15dp"
                     android:width="25dp" />
@@ -134,7 +128,6 @@
                     android:layout_marginTop="15dp"
                     android:width="25dp" />
                 <TextView
-                    android:text="4"
                     android:layout_column="1"
                     android:id="@+id/sexx"
                     android:textSize="30dp"
@@ -152,7 +145,6 @@
                     android:textSize="30dp"
                     android:width="25dp" />
                 <TextView
-                    android:text="5"
                     android:layout_column="1"
                     android:id="@+id/cstatus"
                     android:layout_marginTop="15dp"
@@ -184,7 +176,7 @@
                     android:width="25dp"
                     android:layout_width="320dp" />
                 <TextView
-                    android:text="2"
+                    android:text=""
                     android:layout_column="1"
                     android:id="@+id/regdate"
                     android:layout_marginTop="15dp"
@@ -202,7 +194,7 @@
                     android:textSize="30dp"
                     android:width="25dp" />
                 <TextView
-                    android:text="2"
+                    android:text=""
                     android:layout_column="1"
                     android:id="@+id/regstatus"
                     android:textSize="30dp"
@@ -220,7 +212,7 @@
                     android:textSize="30dp"
                     android:width="25dp" />
                 <TextView
-                    android:text="9"
+                    android:text=""
                     android:layout_column="1"
                     android:id="@+id/biodata"
                     android:textSize="30dp"
@@ -238,7 +230,7 @@
                     android:textSize="30dp"
                     android:width="25dp" />
                 <TextView
-                    android:text="9"
+                    android:text=""
                     android:layout_column="1"
                     android:id="@+id/regisrecord"
                     android:layout_marginTop="15dp"
@@ -256,7 +248,7 @@
                     android:textSize="30dp"
                     android:width="25dp" />
                 <TextView
-                    android:text="9"
+                    android:text=""
                     android:layout_column="1"
                     android:id="@+id/voteridnum"
                     android:layout_marginTop="15dp"
@@ -274,7 +266,7 @@
                     android:textSize="30dp"
                     android:width="25dp" />
                 <TextView
-                    android:text="9"
+                    android:text=""
                     android:layout_column="1"
                     android:id="@+id/province"
                     android:textSize="30dp"
@@ -292,7 +284,7 @@
                     android:textSize="30dp"
                     android:layout_width="264.0dp" />
                 <TextView
-                    android:text="1"
+                    android:text=""
                     android:layout_column="1"
                     android:id="@+id/city"
                     android:textSize="30dp"
@@ -310,7 +302,7 @@
                     android:textSize="30dp"
                     android:layout_width="264.0dp" />
                 <TextView
-                    android:text="1"
+                    android:text=""
                     android:layout_column="1"
                     android:id="@+id/brgy"
                     android:layout_marginTop="15dp"
@@ -328,9 +320,9 @@
                     android:textSize="30dp"
                     android:layout_width="264.0dp" />
                 <TextView
-                    android:text="1"
+                    android:text=""
                     android:layout_column="1"
-                    android:id="@+id/vcenter"
+                    android:id="@+id/precint_id"
                     android:layout_marginTop="15dp"
                     android:textSize="30dp"
                     android:width="30dp" />

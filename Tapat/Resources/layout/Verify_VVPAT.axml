@@ -64,7 +64,7 @@
                     android:layout_marginLeft="30dp"
                     android:layout_width="264.0dp" />
                 <TextView
-                    android:text="1"
+                    android:text=""
                     android:layout_column="1"
                     android:id="@+id/pres1"
                     android:textSize="30dp"
@@ -81,7 +81,7 @@
                     android:layout_marginLeft="30dp"
                     android:layout_width="102.5dp" />
                 <TextView
-                    android:text="1"
+                    android:text=""
                     android:layout_column="1"
                     android:id="@+id/vp1"
                     android:textSize="30dp"
@@ -98,7 +98,7 @@
                     android:layout_marginTop="15dp"
                     android:layout_marginLeft="30dp" />
                 <TextView
-                    android:text="1"
+                    android:text=""
                     android:layout_column="1"
                     android:id="@+id/sen1"
                     a=""
@@ -115,7 +115,7 @@
                     android:textSize="30dp"
                     android:width="25dp" />
                 <TextView
-                    android:text="2"
+                    android:text=""
                     android:layout_column="1"
                     android:id="@+id/sen2"
                     android:textSize="30dp"
@@ -130,7 +130,7 @@
                     android:textSize="30dp"
                     android:width="25dp" />
                 <TextView
-                    android:text="3"
+                    android:text=""
                     android:layout_column="1"
                     android:id="@+id/sen3"
                     android:textSize="30dp"
@@ -145,7 +145,7 @@
                     android:textSize="30dp"
                     android:width="25dp" />
                 <TextView
-                    android:text="4"
+                    android:text=""
                     android:layout_column="1"
                     android:id="@+id/sen4"
                     android:textSize="30dp"
@@ -160,7 +160,7 @@
                     android:textSize="30dp"
                     android:width="25dp" />
                 <TextView
-                    android:text="5"
+                    android:text=""
                     android:layout_column="1"
                     android:id="@+id/sen5"
                     android:textSize="30dp"
@@ -175,7 +175,7 @@
                     android:textSize="30dp"
                     android:width="25dp" />
                 <TextView
-                    android:text="2"
+                    android:text=""
                     android:layout_column="1"
                     android:id="@+id/sen6"
                     android:textSize="30dp"
@@ -190,7 +190,7 @@
                     android:textSize="30dp"
                     android:width="25dp" />
                 <TextView
-                    android:text="2"
+                    android:text=""
                     android:layout_column="1"
                     android:id="@+id/sen7"
                     android:textSize="30dp"
@@ -205,7 +205,7 @@
                     android:textSize="30dp"
                     android:width="25dp" />
                 <TextView
-                    android:text="2"
+                    android:text=""
                     android:layout_column="1"
                     android:id="@+id/sen8"
                     android:textSize="30dp"
@@ -220,7 +220,7 @@
                     android:textSize="30dp"
                     android:width="25dp" />
                 <TextView
-                    android:text="9"
+                    android:text=""
                     android:layout_column="1"
                     android:id="@+id/sen9"
                     android:textSize="30dp"
@@ -235,7 +235,7 @@
                     android:textSize="30dp"
                     android:width="25dp" />
                 <TextView
-                    android:text="9"
+                    android:text=""
                     android:layout_column="1"
                     android:id="@+id/sen10"
                     android:textSize="30dp"
@@ -250,7 +250,7 @@
                     android:textSize="30dp"
                     android:width="25dp" />
                 <TextView
-                    android:text="9"
+                    android:text=""
                     android:layout_column="1"
                     android:id="@+id/sen11"
                     android:textSize="30dp"
@@ -265,7 +265,7 @@
                     android:textSize="30dp"
                     android:width="25dp" />
                 <TextView
-                    android:text="9"
+                    android:text=""
                     android:layout_column="1"
                     android:id="@+id/sen12"
                     android:textSize="30dp"
@@ -282,7 +282,7 @@
                     android:layout_marginLeft="30dp"
                     android:layout_width="264.0dp" />
                 <TextView
-                    android:text="1"
+                    android:text=""
                     android:layout_column="1"
                     android:id="@+id/party1"
                     android:textSize="30dp"
@@ -300,7 +300,7 @@
                     android:layout_marginLeft="30dp"
                     android:layout_width="264.0dp" />
                 <TextView
-                    android:text="1"
+                    android:text=""
                     android:layout_column="1"
                     android:id="@+id/houserep1"
                     android:layout_marginTop="15dp"
@@ -318,7 +318,7 @@
                     android:layout_marginLeft="30dp"
                     android:layout_width="264.0dp" />
                 <TextView
-                    android:text="1"
+                    android:text=""
                     android:layout_column="1"
                     android:id="@+id/mayor1"
                     android:layout_marginTop="15dp"
@@ -336,7 +336,7 @@
                     android:layout_marginLeft="30dp"
                     android:layout_width="264.0dp" />
                 <TextView
-                    android:text="1"
+                    android:text=""
                     android:layout_column="1"
                     android:id="@+id/vice1"
                     android:layout_marginTop="15dp"
@@ -355,7 +355,7 @@
                     android:layout_marginLeft="30dp"
                     android:layout_width="264.0dp" />
                 <TextView
-                    android:text="1"
+                    android:text=""
                     android:layout_column="1"
                     android:id="@+id/lungsod1"
                     android:textSize="30dp"
@@ -372,7 +372,7 @@
                     android:layout_marginLeft="30dp"
                     android:width="25dp" />
                 <TextView
-                    android:text="2"
+                    android:text=""
                     android:layout_column="1"
                     android:id="@+id/lungsod2"
                     android:textSize="30dp"
@@ -388,7 +388,7 @@
                     android:layout_marginLeft="30dp"
                     android:width="25dp" />
                 <TextView
-                    android:text="2"
+                    android:text=""
                     android:layout_column="1"
                     android:id="@+id/lungsod3"
                     android:textSize="30dp"
@@ -403,7 +403,7 @@
                     android:textSize="15dp"
                     android:width="25dp" />
                 <TextView
-                    android:text="2"
+                    android:text=""
                     android:layout_column="1"
                     android:id="@+id/lungsod4"
                     android:textSize="30dp"
@@ -419,7 +419,7 @@
                     android:layout_marginLeft="30dp"
                     android:width="25dp" />
                 <TextView
-                    android:text="2"
+                    android:text=""
                     android:layout_column="1"
                     android:id="@+id/lungsod5"
                     android:textSize="30dp"
@@ -435,7 +435,7 @@
                     android:layout_marginLeft="30dp"
                     android:width="25dp" />
                 <TextView
-                    android:text="2"
+                    android:text=""
                     android:layout_column="1"
                     android:id="@+id/lungsod6"
                     android:textSize="30dp"
