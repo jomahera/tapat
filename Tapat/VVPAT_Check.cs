@@ -12,19 +12,19 @@ using Android.Widget;
 
 namespace Tapat
 {
-    [Activity(Label = "Sent_To_Cencas")]
-    public class Sent_To_Cencas : Activity
+    [Activity(Label = "VVPAT_Check")]
+    public class VVPAT_Check : Activity
     {
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
 
             // Create your application here
-            SetContentView(Resource.Layout.Sent_To_Cencas);
-            Button logout = FindViewById<Button>(Resource.Id.main);
+            SetContentView(Resource.Layout.VVPAT_Check);
+            Button proceed = FindViewById<Button>(Resource.Id.proceedd);
 
-            logout.Click += delegate {
-                StartActivity(typeof(Tapat.Logout));
+            proceed.Click += delegate {
+                StartActivity(typeof(Tapat.VVPAT_IDEntries));
             };
         }
     }

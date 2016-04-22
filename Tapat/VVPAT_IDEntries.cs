@@ -31,44 +31,44 @@ namespace Tapat
             Button vvpat7 = FindViewById<Button>(Resource.Id.id7);
             Button vvpat8 = FindViewById<Button>(Resource.Id.id8);
             Button vvpat9 = FindViewById<Button>(Resource.Id.id9);
+            Button donee = FindViewById<Button>(Resource.Id.done);
 
 
             vvpat1.Click += delegate {
-                StartActivity(typeof(Tapat.MainMenu));
+                StartActivity(typeof(Tapat.VVPAT_Check));
             };
             vvpat2.Click += delegate {
-                StartActivity(typeof(Tapat.MainMenu));
-            };
-
-            vvpat1.Click += delegate {
-                StartActivity(typeof(Tapat.Fingerprint_Voter));
-            };
-            vvpat2.Click += delegate {
-                StartActivity(typeof(Tapat.MainMenu));
+                StartActivity(typeof(Tapat.VVPAT_Check));
             };
 
             vvpat3.Click += delegate {
-                StartActivity(typeof(Tapat.Fingerprint_Voter));
+                StartActivity(typeof(Tapat.VVPAT_Check));
             };
             vvpat4.Click += delegate {
-                StartActivity(typeof(Tapat.MainMenu));
+                StartActivity(typeof(Tapat.VVPAT_Check));
             };
 
             vvpat5.Click += delegate {
-                StartActivity(typeof(Tapat.Fingerprint_Voter));
+                StartActivity(typeof(Tapat.VVPAT_Check));
             };
             vvpat6.Click += delegate {
-                StartActivity(typeof(Tapat.MainMenu));
+                StartActivity(typeof(Tapat.VVPAT_Check));
             };
 
             vvpat7.Click += delegate {
-                StartActivity(typeof(Tapat.Fingerprint_Voter));
+                StartActivity(typeof(Tapat.VVPAT_Check));
             };
             vvpat8.Click += delegate {
-                StartActivity(typeof(Tapat.MainMenu));
+                StartActivity(typeof(Tapat.VVPAT_Check));
             };
+
+
             vvpat9.Click += delegate {
-                StartActivity(typeof(Tapat.MainMenu));
+                StartActivity(typeof(Tapat.VVPAT_Check));
+            };
+
+            donee.Click += delegate {
+                StartActivity(typeof(Tapat.VVPAT_Commit));
             };
         }
     }

@@ -30,7 +30,7 @@ namespace Tapat
                 StartActivity(typeof(Tapat.Fingerprint_Voter));
             };
             menu.Click += delegate {
-                StartActivity(typeof(Tapat. Close_Poll));
+                StartActivity(typeof(Tapat. MainMenu2));
             };
         }
     }

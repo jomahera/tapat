@@ -28,18 +28,18 @@
         android:id="@+id/relativeLayout1"
         android:layout_marginLeft="0.0dp" />
     <TextView
-        android:text="You have been logged out to the system."
+        android:text="VVPAT has been re-checked."
         android:layout_width="600dp"
         android:layout_height="wrap_content"
         android:id="@+id/textView1"
-        android:textSize="50dp"
+        android:textSize="70dp"
         android:layout_marginTop="200dp"
         android:layout_gravity="center_horizontal"
         android:textAlignment="center"
         android:gravity="center" />
     <Button
-        android:text="Log-in"
-        android:id="@+id/main"
+        android:text="Proceed"
+        android:id="@+id/rechecked"
         android:background="#228B22"
         android:layout_width="500dp"
         android:layout_height="100dp"

@@ -24,7 +24,7 @@ namespace Tapat
             Button mainmenu = FindViewById<Button>(Resource.Id.main);
 
             mainmenu.Click += delegate {
-                StartActivity(typeof(Tapat.MainMenu));
+                StartActivity(typeof(Tapat.MainMenu3));
             };
         }
     }

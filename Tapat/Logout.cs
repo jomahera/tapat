@@ -20,8 +20,18 @@ namespace Tapat
             base.OnCreate(savedInstanceState);
 
             // Create your application here
-            SetContentView(Resource.Layout.Verify_VVPAT);
+            SetContentView(Resource.Layout.Logout);
 
+
+            Button log_in = FindViewById<Button>(Resource.Id.main);
+
+
+
+
+            log_in.Click += delegate {
+                StartActivity(typeof(Tapat.Login));
+            };
         }
+
     }
 }

@@ -12,17 +12,27 @@ using Android.Widget;
 
 namespace Tapat
 {
-    [Activity(Label = "Sent_To_Cencas")]
-    public class Sent_To_Cencas : Activity
+    [Activity(Label = "Main_Menu4")]
+    public class MainMenu4 : Activity
     {
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
 
             // Create your application here
-            SetContentView(Resource.Layout.Sent_To_Cencas);
-            Button logout = FindViewById<Button>(Resource.Id.main);
+            SetContentView(Resource.Layout.MainMenu4);
 
+
+
+    
+            Button tallyvotes = FindViewById<Button>(Resource.Id.tally);
+            Button logout = FindViewById<Button>(Resource.Id.logout_butt);
+
+
+   
+            tallyvotes.Click += delegate {
+                StartActivity(typeof(Tapat.Tally_Votes));
+            };
             logout.Click += delegate {
                 StartActivity(typeof(Tapat.Logout));
             };
