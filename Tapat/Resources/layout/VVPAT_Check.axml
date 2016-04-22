@@ -1,7 +1,740 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
-
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <RelativeLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/relative_main">
+        <ImageView
+            android:src="@drawable/logow"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:id="@+id/img_tapat"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="10dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/choose"
+            android:textSize="35dp"
+            android:textColor="@android:color/holo_blue_dark"
+            android:text="Votes for VVPAT #"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="100dp"
+            android:layout_below="@+id/img_tapat" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/relativeLayout1">
+        <TableLayout
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tableLayout1">
+            <TableRow
+                android:id="@+id/tableRow1">
+                <TextView
+                    android:text="President"
+                    android:layout_span="10"
+                    android:id="@+id/textView10"
+                    android:textSize="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#FFFF0A" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/tableRow1">
+                <Button
+                    android:text="1"
+                    android:layout_column="0"
+                    android:id="@+id/button1"
+                    android:layout_marginLeft="20dp"
+                    android:textSize="30dp" />
+                <TextView
+                    android:text="0"
+                    android:layout_column="1"
+                    android:id="@+id/textView10"
+                    android:textSize="30dp"
+                    android:gravity="center" />
+                <Button
+                    android:text="2"
+                    android:layout_column="2"
+                    android:id="@+id/button2"
+                    android:textSize="30dp" />
+                <TextView
+                    android:text="0"
+                    android:id="@+id/textView10"
+                    android:gravity="center"
+                    android:textSize="30dp" />
+                <Button
+                    android:text="3"
+                    android:id="@+id/button2"
+                    android:textSize="30dp" />
+                <TextView
+                    android:text="0"
+                    android:id="@+id/textView10"
+                    android:gravity="center"
+                    android:textSize="30dp" />
+                <Button
+                    android:text="4"
+                    android:id="@+id/button2"
+                    android:textSize="30dp" />
+                <TextView
+                    android:text="0"
+                    android:id="@+id/textView10"
+                    android:textSize="30dp"
+                    android:gravity="center" />
+                <Button
+                    android:text="5"
+                    android:id="@+id/button2"
+                    android:textSize="30dp" />
+                <TextView
+                    android:text="0"
+                    android:id="@+id/textView10"
+                    android:textSize="30dp"
+                    android:gravity="center" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/tableRow1">
+                <TextView
+                    android:text="Vice-President"
+                    android:layout_span="10"
+                    android:id="@+id/textView10"
+                    android:textSize="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:textColor="#FFFF0A" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/tableRow1">
+                <Button
+                    android:text="1"
+                    android:layout_column="0"
+                    android:id="@+id/button1"
+                    android:layout_marginLeft="20dp"
+                    android:textSize="30dp" />
+                <TextView
+                    android:text="0"
+                    android:layout_column="1"
+                    android:id="@+id/textView10"
+                    android:gravity="center"
+                    android:textSize="30dp"
+                    android:layout_width="69.0dp" />
+                <Button
+                    android:text="2"
+                    android:layout_column="2"
+                    android:id="@+id/button2"
+                    android:textSize="30dp" />
+                <TextView
+                    android:text="0"
+                    android:id="@+id/textView10"
+                    android:gravity="center"
+                    android:textSize="30dp"
+                    android:layout_width="68.0dp" />
+                <Button
+                    android:text="3"
+                    android:id="@+id/button2"
+                    android:textSize="30dp" />
+                <TextView
+                    android:text="0"
+                    android:id="@+id/textView10"
+                    android:gravity="center"
+                    android:textSize="30dp"
+                    android:layout_width="74.0dp" />
+                <Button
+                    android:text="4"
+                    android:id="@+id/button2"
+                    android:textSize="30dp" />
+                <TextView
+                    android:text="0"
+                    android:id="@+id/textView10"
+                    android:gravity="center"
+                    android:textSize="30dp"
+                    android:layout_width="61.0dp" />
+                <Button
+                    android:text="5"
+                    android:id="@+id/button2"
+                    android:textSize="30dp" />
+                <TextView
+                    android:text="0"
+                    android:id="@+id/textView10"
+                    android:gravity="center"
+                    android:textSize="30dp" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/tableRow1">
+                <Button
+                    android:text="6"
+                    android:id="@+id/button2"
+                    android:layout_marginLeft="20dp"
+                    android:textSize="30dp" />
+                <TextView
+                    android:text="0"
+                    android:id="@+id/textView10"
+                    android:gravity="center"
+                    android:textSize="30dp" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/tableRow1">
+                <TextView
+                    android:text="Senators"
+                    android:layout_span="10"
+                    android:id="@+id/textView10"
+                    android:textSize="30dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#FFFF0A" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/tableRow1">
+                <Button
+                    android:text="1"
+                    android:layout_column="0"
+                    android:id="@+id/button1"
+                    android:layout_marginLeft="20dp"
+                    android:textSize="30dp" />
+                <TextView
+                    android:text="0"
+                    android:layout_column="1"
+                    android:id="@+id/textView10"
+                    android:textSize="30dp"
+                    android:gravity="center" />
+                <Button
+                    android:text="2"
+                    android:layout_column="2"
+                    android:id="@+id/button2"
+                    android:textSize="30dp" />
+                <TextView
+                    android:text="0"
+                    android:id="@+id/textView10"
+                    android:gravity="center"
+                    android:textSize="30dp" />
+                <Button
+                    android:text="3"
+                    android:id="@+id/button2"
+                    android:textSize="30dp" />
+                <TextView
+                    android:text="0"
+                    android:gravity="center"
+                    android:id="@+id/textView10"
+                    android:textSize="30dp" />
+                <Button
+                    android:text="4"
+                    android:id="@+id/button2"
+                    android:textSize="30dp" />
+                <TextView
+                    android:text="0"
+                    android:textSize="30dp"
+                    android:id="@+id/textView10"
+                    android:gravity="center" />
+                <Button
+                    android:text="5"
+                    android:id="@+id/button2"
+                    android:gravity="center"
+                    android:textSize="30dp" />
+                <TextView
+                    android:text="0"
+                    android:textSize="30dp"
+                    android:gravity="center"
+                    android:id="@+id/textView10"
+                    android:layout_width="57.0dp" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/tableRow1">
+                <Button
+                    android:text="6"
+                    android:layout_column="0"
+                    android:id="@+id/button1"
+                    android:layout_marginLeft="20dp"
+                    android:textSize="30dp" />
+                <TextView
+                    android:text="0"
+                    android:gravity="center"
+                    android:layout_column="1"
+                    android:id="@+id/textView10"
+                    android:textSize="30dp" />
+                <Button
+                    android:text="7"
+                    android:layout_column="2"
+                    android:id="@+id/button2"
+                    android:textSize="30dp" />
+                <TextView
+                    android:text="0"
+                    android:gravity="center"
+                    android:id="@+id/textView10"
+                    android:textSize="30dp" />
+                <Button
+                    android:text="8"
+                    android:id="@+id/button2"
+                    android:textSize="30dp" />
+                <TextView
+                    android:text="0"
+                    android:gravity="center"
+                    android:textSize="30dp"
+                    android:id="@+id/textView10" />
+                <Button
+                    android:text="9"
+                    android:id="@+id/button2"
+                    android:textSize="30dp" />
+                <TextView
+                    android:text="0"
+                    android:gravity="center"
+                    android:textSize="30dp"
+                    android:id="@+id/textView10" />
+                <Button
+                    android:text="10"
+                    android:id="@+id/button2"
+                    android:textSize="30dp" />
+                <TextView
+                    android:text="0"
+                    android:gravity="center"
+                    android:textSize="30dp"
+                    android:id="@+id/textView10" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/tableRow1">
+                <Button
+                    android:text="11"
+                    android:layout_column="0"
+                    android:id="@+id/button1"
+                    android:layout_marginLeft="20dp"
+                    android:textSize="30dp" />
+                <TextView
+                    android:text="0"
+                    android:gravity="center"
+                    android:layout_column="1"
+                    android:id="@+id/textView10"
+                    android:textSize="30dp" />
+                <Button
+                    android:text="12"
+                    android:layout_column="2"
+                    android:id="@+id/button2"
+                    android:textSize="30dp" />
+                <TextView
+                    android:text="0"
+                    android:gravity="center"
+                    android:id="@+id/textView10"
+                    android:textSize="30dp" />
+                <Button
+                    android:text="13"
+                    android:id="@+id/button2"
+                    android:textSize="30dp" />
+                <TextView
+                    android:text="0"
+                    android:gravity="center"
+                    android:id="@+id/textView10"
+                    android:textSize="30dp" />
+                <Button
+                    android:text="14"
+                    android:id="@+id/button2"
+                    android:textSize="30dp" />
+                <TextView
+                    android:text="0"
+                    android:gravity="center"
+                    android:textSize="30dp"
+                    android:id="@+id/textView10" />
+                <Button
+                    android:text="15"
+                    android:id="@+id/button2"
+                    android:textSize="30dp" />
+                <TextView
+                    android:text="0"
+                    android:gravity="center"
+                    android:textSize="30dp"
+                    android:id="@+id/textView10" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/tableRow1">
+                <Button
+                    android:text="16"
+                    android:layout_column="0"
+                    android:id="@+id/button1"
+                    android:layout_marginLeft="20dp"
+                    android:textSize="30dp" />
+                <TextView
+                    android:text="0"
+                    android:gravity="center"
+                    android:layout_column="1"
+                    android:id="@+id/textView10"
+                    android:textSize="30dp" />
+                <Button
+                    android:text="17"
+                    android:layout_column="2"
+                    android:id="@+id/button2"
+                    android:textSize="30dp" />
+                <TextView
+                    android:text="0"
+                    android:gravity="center"
+                    android:id="@+id/textView10"
+                    android:textSize="30dp" />
+                <Button
+                    android:text="18"
+                    android:id="@+id/button2"
+                    android:textSize="30dp" />
+                <TextView
+                    android:text="0"
+                    android:gravity="center"
+                    android:textSize="30dp"
+                    android:id="@+id/textView10" />
+                <Button
+                    android:text="19"
+                    android:id="@+id/button2"
+                    android:textSize="30dp" />
+                <TextView
+                    android:text="0"
+                    android:gravity="center"
+                    android:textSize="30dp"
+                    android:id="@+id/textView10" />
+                <Button
+                    android:text="20"
+                    android:id="@+id/button2"
+                    android:textSize="30dp" />
+                <TextView
+                    android:text="0"
+                    android:gravity="center"
+                    android:textSize="30dp"
+                    android:id="@+id/textView10" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/tableRow1">
+                <Button
+                    android:text="21"
+                    android:layout_column="0"
+                    android:id="@+id/button1"
+                    android:layout_marginLeft="20dp"
+                    android:textSize="30dp" />
+                <TextView
+                    android:text="0"
+                    android:gravity="center"
+                    android:layout_column="1"
+                    android:id="@+id/textView10"
+                    android:textSize="30dp" />
+                <Button
+                    android:text="22"
+                    android:layout_column="2"
+                    android:id="@+id/button2"
+                    android:textSize="30dp" />
+                <TextView
+                    android:text="0"
+                    android:gravity="center"
+                    android:id="@+id/textView10"
+                    android:textSize="30dp" />
+                <Button
+                    android:text="23"
+                    android:id="@+id/button2"
+                    android:textSize="30dp" />
+                <TextView
+                    android:text="0"
+                    android:gravity="center"
+                    android:textSize="30dp"
+                    android:id="@+id/textView10" />
+                <Button
+                    android:text="24"
+                    android:id="@+id/button2"
+                    android:textSize="30dp" />
+                <TextView
+                    android:text="0"
+                    android:gravity="center"
+                    android:textSize="30dp"
+                    android:id="@+id/textView10" />
+                <Button
+                    android:text="25"
+                    android:id="@+id/button2"
+                    android:textSize="30dp" />
+                <TextView
+                    android:text="0"
+                    android:gravity="center"
+                    android:textSize="30dp"
+                    android:id="@+id/textView10" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/tableRow1">
+                <Button
+                    android:text="26"
+                    android:layout_column="0"
+                    android:id="@+id/button1"
+                    android:layout_marginLeft="20dp"
+                    android:textSize="30dp" />
+                <TextView
+                    android:text="0"
+                    android:layout_column="1"
+                    android:id="@+id/textView10"
+                    android:gravity="center"
+                    android:textSize="30dp" />
+                <Button
+                    android:text="27"
+                    android:layout_column="2"
+                    android:id="@+id/button2"
+                    android:textSize="30dp" />
+                <TextView
+                    android:text="0"
+                    android:gravity="center"
+                    android:id="@+id/textView10"
+                    android:textSize="30dp" />
+                <Button
+                    android:text="28"
+                    android:id="@+id/button2"
+                    android:textSize="30dp" />
+                <TextView
+                    android:text="0"
+                    android:gravity="center"
+                    android:textSize="30dp"
+                    android:id="@+id/textView10" />
+                <Button
+                    android:text="29"
+                    android:id="@+id/button2"
+                    android:textSize="30dp" />
+                <TextView
+                    android:text="0"
+                    android:gravity="center"
+                    android:textSize="30dp"
+                    android:id="@+id/textView10" />
+                <Button
+                    android:text="30"
+                    android:id="@+id/button2"
+                    android:textSize="30dp" />
+                <TextView
+                    android:text="0"
+                    android:id="@+id/textView10"
+                    android:textSize="30dp"
+                    android:gravity="center" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/tableRow1">
+                <Button
+                    android:text="31"
+                    android:layout_column="0"
+                    android:id="@+id/button1"
+                    android:layout_marginLeft="20dp"
+                    android:textSize="30dp" />
+                <TextView
+                    android:text="0"
+                    android:layout_column="1"
+                    android:gravity="center"
+                    android:id="@+id/textView10"
+                    android:textSize="30dp" />
+                <Button
+                    android:text="32"
+                    android:layout_column="2"
+                    android:id="@+id/button2"
+                    android:textSize="30dp" />
+                <TextView
+                    android:text="0"
+                    android:id="@+id/textView10"
+                    android:gravity="center"
+                    android:textSize="30dp" />
+                <Button
+                    android:text="33"
+                    android:id="@+id/button2"
+                    android:textSize="30dp" />
+                <TextView
+                    android:text="0"
+                    android:gravity="center"
+                    android:id="@+id/textView10"
+                    android:textSize="30dp" />
+                <Button
+                    android:text="34"
+                    android:id="@+id/button2"
+                    android:textSize="30dp" />
+                <TextView
+                    android:text="0"
+                    android:gravity="center"
+                    android:id="@+id/textView10"
+                    android:textSize="30dp" />
+                <Button
+                    android:text="35"
+                    android:id="@+id/button2"
+                    android:textSize="30dp" />
+                <TextView
+                    android:text="0"
+                    android:textSize="30dp"
+                    android:id="@+id/textView10"
+                    android:gravity="center" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/tableRow1">
+                <Button
+                    android:text="36"
+                    android:layout_column="0"
+                    android:id="@+id/button1"
+                    android:layout_marginLeft="20dp"
+                    android:textSize="30dp" />
+                <TextView
+                    android:text="0"
+                    android:layout_column="1"
+                    android:gravity="center"
+                    android:id="@+id/textView10"
+                    android:textSize="30dp" />
+                <Button
+                    android:text="37"
+                    android:layout_column="2"
+                    android:id="@+id/button2"
+                    android:textSize="30dp" />
+                <TextView
+                    android:gravity="center"
+                    android:text="0"
+                    android:id="@+id/textView10"
+                    android:textSize="30dp" />
+                <Button
+                    android:text="38"
+                    android:id="@+id/button2"
+                    android:textSize="30dp" />
+                <TextView
+                    android:textSize="30dp"
+                    android:text="0"
+                    android:id="@+id/textView10"
+                    android:gravity="center" />
+                <Button
+                    android:text="39"
+                    android:id="@+id/button2"
+                    android:textSize="30dp" />
+                <TextView
+                    android:textSize="30dp"
+                    android:gravity="center"
+                    android:text="0"
+                    android:id="@+id/textView10" />
+                <Button
+                    android:text="40"
+                    android:id="@+id/button2"
+                    android:textSize="30dp" />
+                <TextView
+                    android:text="0"
+                    android:textSize="30dp"
+                    android:id="@+id/textView10"
+                    android:gravity="center" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/tableRow1">
+                <Button
+                    android:text="41"
+                    android:layout_column="0"
+                    android:id="@+id/button1"
+                    android:layout_marginLeft="20dp"
+                    android:textSize="30dp" />
+                <TextView
+                    android:text="0"
+                    android:textSize="30dp"
+                    android:layout_column="1"
+                    android:id="@+id/textView10"
+                    android:layout_width="51.0dp"
+                    android:gravity="center" />
+                <Button
+                    android:text="42"
+                    android:layout_column="2"
+                    android:id="@+id/button2"
+                    android:textSize="30dp" />
+                <TextView
+                    android:text="0"
+                    android:textSize="30dp"
+                    android:id="@+id/textView10"
+                    android:gravity="center" />
+                <Button
+                    android:text="43"
+                    android:id="@+id/button2"
+                    android:textSize="30dp" />
+                <TextView
+                    android:text="0"
+                    android:textSize="30dp"
+                    android:id="@+id/textView10"
+                    android:layout_width="52.0dp"
+                    android:gravity="center" />
+                <Button
+                    android:text="44"
+                    android:id="@+id/button2"
+                    android:textSize="30dp" />
+                <TextView
+                    android:text="0"
+                    android:textSize="30dp"
+                    android:id="@+id/textView10"
+                    android:layout_width="45.0dp"
+                    android:gravity="center" />
+                <Button
+                    android:text="45"
+                    android:id="@+id/button2"
+                    android:textSize="30dp" />
+                <TextView
+                    android:text="0"
+                    android:textSize="30dp"
+                    android:id="@+id/textView10"
+                    android:gravity="center" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/tableRow1">
+                <Button
+                    android:text="46"
+                    android:layout_column="0"
+                    android:id="@+id/button1"
+                    android:layout_marginLeft="20dp"
+                    android:textSize="30dp" />
+                <TextView
+                    android:text="0"
+                    android:layout_column="1"
+                    android:id="@+id/textView10"
+                    android:textSize="30dp"
+                    android:gravity="center" />
+                <Button
+                    android:text="47"
+                    android:layout_column="2"
+                    android:id="@+id/button2"
+                    android:textSize="30dp" />
+                <TextView
+                    android:text="0"
+                    android:textSize="30dp"
+                    android:id="@+id/textView10"
+                    android:layout_width="53.0dp"
+                    android:gravity="center" />
+                <Button
+                    android:text="48"
+                    android:id="@+id/button2"
+                    android:textSize="30dp" />
+                <TextView
+                    android:text="0"
+                    android:textSize="30dp"
+                    android:id="@+id/textView10"
+                    android:gravity="center" />
+                <Button
+                    android:text="49"
+                    android:id="@+id/button2"
+                    android:textSize="30dp" />
+                <TextView
+                    android:text="0"
+                    android:textSize="30dp"
+                    android:id="@+id/textView10"
+                    android:gravity="center" />
+                <Button
+                    android:text="50"
+                    android:id="@+id/button2"
+                    android:textSize="30dp" />
+                <TextView
+                    android:text="0"
+                    android:textSize="30dp"
+                    android:id="@+id/textView10"
+                    android:gravity="center" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/tableRow1">
+                <Button
+                    android:layout_span="10"
+                    android:text="Proceed"
+                    android:id="@+id/proceedd"
+                    android:layout_marginTop="30dp"
+                    android:background="#228B22"
+                    android:textSize="30dp"
+                    android:layout_marginLeft="70dp"
+                    android:layout_marginRight="70dp" />
+            </TableRow>
+        </TableLayout>
+    </RelativeLayout>
 </LinearLayout>

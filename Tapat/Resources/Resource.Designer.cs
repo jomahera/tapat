@@ -136,6 +136,12 @@ namespace Tapat
 			// aapt resource value: 0x7f05002e
 			public const int button = 2131034158;
 			
+			// aapt resource value: 0x7f0500b9
+			public const int button1 = 2131034297;
+			
+			// aapt resource value: 0x7f0500ba
+			public const int button2 = 2131034298;
+			
 			// aapt resource value: 0x7f0500b3
 			public const int buttons = 2131034291;
 			
@@ -175,6 +181,9 @@ namespace Tapat
 			// aapt resource value: 0x7f05009a
 			public const int details = 2131034266;
 			
+			// aapt resource value: 0x7f0500c6
+			public const int done = 2131034310;
+			
 			// aapt resource value: 0x7f050050
 			public const int duterte = 2131034192;
 			
@@ -205,32 +214,32 @@ namespace Tapat
 			// aapt resource value: 0x7f05001d
 			public const int houserepre = 2131034141;
 			
-			// aapt resource value: 0x7f0500b6
-			public const int id1 = 2131034294;
-			
-			// aapt resource value: 0x7f0500b7
-			public const int id2 = 2131034295;
-			
-			// aapt resource value: 0x7f0500b8
-			public const int id3 = 2131034296;
-			
-			// aapt resource value: 0x7f0500b9
-			public const int id4 = 2131034297;
-			
-			// aapt resource value: 0x7f0500ba
-			public const int id5 = 2131034298;
-			
-			// aapt resource value: 0x7f0500bb
-			public const int id6 = 2131034299;
-			
-			// aapt resource value: 0x7f0500bc
-			public const int id7 = 2131034300;
-			
 			// aapt resource value: 0x7f0500bd
-			public const int id8 = 2131034301;
+			public const int id1 = 2131034301;
 			
 			// aapt resource value: 0x7f0500be
-			public const int id9 = 2131034302;
+			public const int id2 = 2131034302;
+			
+			// aapt resource value: 0x7f0500bf
+			public const int id3 = 2131034303;
+			
+			// aapt resource value: 0x7f0500c0
+			public const int id4 = 2131034304;
+			
+			// aapt resource value: 0x7f0500c1
+			public const int id5 = 2131034305;
+			
+			// aapt resource value: 0x7f0500c2
+			public const int id6 = 2131034306;
+			
+			// aapt resource value: 0x7f0500c3
+			public const int id7 = 2131034307;
+			
+			// aapt resource value: 0x7f0500c4
+			public const int id8 = 2131034308;
+			
+			// aapt resource value: 0x7f0500c5
+			public const int id9 = 2131034309;
 			
 			// aapt resource value: 0x7f0500a8
 			public const int id_num = 2131034280;
@@ -346,6 +355,9 @@ namespace Tapat
 			// aapt resource value: 0x7f0500b5
 			public const int proceed_butt = 2131034293;
 			
+			// aapt resource value: 0x7f0500bb
+			public const int proceedd = 2131034299;
+			
 			// aapt resource value: 0x7f0500aa
 			public const int prov = 2131034282;
 			
@@ -357,6 +369,9 @@ namespace Tapat
 			
 			// aapt resource value: 0x7f05002f
 			public const int recapture_button = 2131034159;
+			
+			// aapt resource value: 0x7f0500bc
+			public const int rechecked = 2131034300;
 			
 			// aapt resource value: 0x7f05009b
 			public const int reg = 2131034267;
@@ -559,6 +574,12 @@ namespace Tapat
 			// aapt resource value: 0x7f050096
 			public const int sexx = 2131034262;
 			
+			// aapt resource value: 0x7f0500b6
+			public const int tableLayout1 = 2131034294;
+			
+			// aapt resource value: 0x7f0500b7
+			public const int tableRow1 = 2131034295;
+			
 			// aapt resource value: 0x7f050003
 			public const int tagalog = 2131034115;
 			
@@ -567,6 +588,9 @@ namespace Tapat
 			
 			// aapt resource value: 0x7f050038
 			public const int textView1 = 2131034168;
+			
+			// aapt resource value: 0x7f0500b8
+			public const int textView10 = 2131034296;
 			
 			// aapt resource value: 0x7f050039
 			public const int textView2 = 2131034169;
@@ -696,25 +720,31 @@ namespace Tapat
 			public const int MainMenu3 = 2130903050;
 			
 			// aapt resource value: 0x7f03000b
-			public const int Scrolling = 2130903051;
+			public const int MainMenu4 = 2130903051;
 			
 			// aapt resource value: 0x7f03000c
-			public const int Sent_To_Cencas = 2130903052;
+			public const int Scrolling = 2130903052;
 			
 			// aapt resource value: 0x7f03000d
-			public const int Tally_Votes = 2130903053;
+			public const int Sent_To_Cencas = 2130903053;
 			
 			// aapt resource value: 0x7f03000e
-			public const int Verify_VVPAT = 2130903054;
+			public const int Tally_Votes = 2130903054;
 			
 			// aapt resource value: 0x7f03000f
-			public const int Voter_Profile = 2130903055;
+			public const int Verify_VVPAT = 2130903055;
 			
 			// aapt resource value: 0x7f030010
-			public const int VVPAT_Check = 2130903056;
+			public const int Voter_Profile = 2130903056;
 			
 			// aapt resource value: 0x7f030011
-			public const int VVPAT_IDEntries = 2130903057;
+			public const int VVPAT_Check = 2130903057;
+			
+			// aapt resource value: 0x7f030012
+			public const int VVPAT_Commit = 2130903058;
+			
+			// aapt resource value: 0x7f030013
+			public const int VVPAT_IDEntries = 2130903059;
 			
 			static Layout()
 			{

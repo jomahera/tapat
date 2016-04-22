@@ -12,26 +12,20 @@ using Android.Widget;
 
 namespace Tapat
 {
-    [Activity(Label = "Logout")]
-    public class Logout : Activity
+    [Activity(Label = "VVPAT_Check")]
+    public class VVPAT_Check : Activity
     {
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
 
             // Create your application here
-            SetContentView(Resource.Layout.Logout);
+            SetContentView(Resource.Layout.VVPAT_Check);
+            Button proceed = FindViewById<Button>(Resource.Id.proceedd);
 
-
-            Button log_in = FindViewById<Button>(Resource.Id.main);
-
-
-
-
-            log_in.Click += delegate {
-                StartActivity(typeof(Tapat.Login));
+            proceed.Click += delegate {
+                StartActivity(typeof(Tapat.VVPAT_IDEntries));
             };
         }
-
     }
 }

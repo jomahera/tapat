@@ -12,24 +12,24 @@ using Android.Widget;
 
 namespace Tapat
 {
-    [Activity(Label = "Logout")]
-    public class Logout : Activity
+    [Activity(Label = "VVPAT_Commit")]
+    public class VVPAT_Commit : Activity
     {
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
 
             // Create your application here
-            SetContentView(Resource.Layout.Logout);
+            SetContentView(Resource.Layout.VVPAT_Commit);
 
 
-            Button log_in = FindViewById<Button>(Resource.Id.main);
+            Button commit = FindViewById<Button>(Resource.Id.rechecked);
 
 
 
 
-            log_in.Click += delegate {
-                StartActivity(typeof(Tapat.Login));
+            commit.Click += delegate {
+                StartActivity(typeof(Tapat.MainMenu4));
             };
         }
 
