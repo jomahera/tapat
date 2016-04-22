@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <RelativeLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/relativeLayout1">
+        <ImageView
+            android:src="@drawable/logow"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:id="@+id/img_tapat"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="10dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/choose"
+            android:textSize="50dp"
+            android:text="Choose an option:"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"
+            android:layout_marginTop="130dp"
+            android:layout_below="@+id/img_tapat" />
+        <Button
+            android:text="Tally Votes"
+            android:layout_width="400dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/choose"
+            android:background="@android:color/holo_blue_dark"
+            android:id="@+id/tally"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="80dp"
+            android:textSize="30dp"
+            android:onClick="tally"
+            android:clickable="true" />
+        <Button
+            android:text="Logout"
+            android:layout_width="400dp"
+            android:layout_height="100dp"
+            android:background="@android:color/holo_blue_dark"
+            android:layout_below="@+id/tally"
+            android:id="@+id/logout_butt"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="80dp"
+            android:textSize="30dp"
+            android:onClick="logout_butt"
+            android:clickable="true" />
+    </RelativeLayout>
+</LinearLayout>
