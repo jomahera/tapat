@@ -31,7 +31,6 @@
     <WarningLevel>4</WarningLevel>
     <AndroidUseSharedRuntime>True</AndroidUseSharedRuntime>
     <AndroidLinkMode>None</AndroidLinkMode>
-    <FileAlignment>2048</FileAlignment>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -86,6 +85,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Ballot_Votes.cs" />
+    <Compile Include="BitmapHelpers.cs" />
+    <Compile Include="Captured.cs" />
     <Compile Include="Capture_Ballot.cs" />
     <Compile Include="Cast_Vote.cs" />
     <Compile Include="Close_Poll.cs" />
@@ -101,8 +102,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Scrolling.cs" />
     <Compile Include="Sent_To_Cencas.cs" />
-    <Compile Include="SQLite.cs" />
-    <Compile Include="SQLiteAsync.cs" />
     <Compile Include="Tally_Votes.cs" />
     <Compile Include="Verify_VVPAT.cs" />
     <Compile Include="Voter_Profile.cs" />
@@ -112,9 +111,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
-    <AndroidAsset Include="Assets\tapat.sqlite">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </AndroidAsset>
     <None Include="GettingStarted.Xamarin" />
     <AndroidResource Include="Resources\layout\Fingerprint_BEI.axml">
       <SubType>AndroidResource</SubType>
@@ -168,6 +164,9 @@
       <SubType>AndroidResource</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\layout\MainMenu4.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\captured.axml">
       <SubType>AndroidResource</SubType>
     </AndroidResource>
   </ItemGroup>

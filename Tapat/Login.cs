@@ -11,7 +11,7 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 
-using SQLite;
+//using SQLite;
 using Microsoft.WindowsAzure.MobileServices;
 
 namespace Tapat
@@ -24,7 +24,7 @@ namespace Tapat
 
         public class BEI
         {
-            [PrimaryKey, AutoIncrement]
+            //[PrimaryKey, AutoIncrement]
             public int BEI_id { get; set; }
             public string pword { get; set; }
         }
@@ -44,7 +44,7 @@ namespace Tapat
             //string sqlQuery = "SELECT BEI_id FROM BEI WHERE BEI_id = '" + user.Text + "' AND pword = '" + pass.Text + "';";
             var r = 0;
 
-            using (SQLiteConnection conn = new SQLiteConnection(dbPath))
+            //using (SQLiteConnection conn = new SQLiteConnection(dbPath))
             {
                 try
                 {
@@ -97,13 +97,13 @@ namespace Tapat
                         }
                     };
 
-                } catch (SQLiteException exception)
+                } catch
                 {
-                    throw exception;
+                    //throw exception;
                 }
                 finally
                 {
-                    conn.Close();
+                    //conn.Close();
                 }
 
             };

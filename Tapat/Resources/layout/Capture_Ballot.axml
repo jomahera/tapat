@@ -70,8 +70,8 @@
         android:layout_marginTop="20dp"
         android:textColor="#FFFF0A" />
     <Button
-        android:text="Capture Ballot"
-        android:id="@+id/capture_button"
+        android:text="Proceed"
+        android:id="@+id/proceed"
         android:layout_width="500dp"
         android:layout_height="100dp"
         android:layout_marginTop="100dp"
