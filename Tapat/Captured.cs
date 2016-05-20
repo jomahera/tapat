@@ -15,6 +15,8 @@ using Android.Provider;
 using Java.IO;
 using Environment = Android.OS.Environment;
 using Uri = Android.Net.Uri;
+using Android.Media;
+using Android.Util;
 
 namespace Tapat
 {
@@ -88,6 +90,8 @@ namespace Tapat
                 };
             }
 
+            
+
 
             //  Button capture = FindViewById<Button>(Resource.Id.capture_button);
 
@@ -130,5 +134,17 @@ namespace Tapat
 
             StartActivityForResult(intent, 0);
         }
+
+        /* public static Bitmap rotate(Bitmap bitmap, int degree)
+        {
+            int w = bitmap.getWidth();
+            int h = bitmap.getHeight();
+
+            Matrix mtx = new Matrix();
+            //       mtx.postRotate(degree);
+            mtx.setRotate(degree);
+
+            return Bitmap.createBitmap(bitmap, 0, 0, w, h, mtx, true);
+        } */
     }
 }
